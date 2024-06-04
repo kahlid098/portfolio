@@ -1,0 +1,54 @@
+.template{
+    max-width: 22%;
+    display: block;
+    height: auto;
+    margin: auto;
+}
+.card{
+    width: 32%;
+    text-align: center;
+    border: 1px solid #cccc;
+    padding: 14px;
+    border-radius: 6px;
+    box-shadow: 7px 9px 5px #bcbbcf;
+}
+.card:hover{
+    background: #5247ff33;
+}
+.think{
+    font-size: 16px;
+    padding-bottom: 36px;
+    border-bottom: 1px solid #ccc;
+}
+.web{
+    margin: 16px 10px;
+}
+
+.read-more{
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+    background: #5247ff !important;
+    padding: 10px 24px;
+    margin: 14px 0 0 0;
+}
+.mar{
+    margin-top: 50px !important;
+}
+@media only screen and (max-width: 600px) {
+    .mar{
+        margin-top: 50px !important;
+    }  
+    .card {
+        width: 100% !important;
+        text-align: center;
+        border: 1px solid #cccc;
+        padding: 14px;
+        border-radius: 6px;
+        box-shadow: 7px 9px 5px #bcbbcf;
+        margin-bottom: 30px;
+    }
+}

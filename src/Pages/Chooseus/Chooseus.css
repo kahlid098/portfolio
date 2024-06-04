@@ -1,0 +1,74 @@
+.ch-box{
+    width: 13%;
+    border-radius: 5px;
+    box-shadow: 0 0 12px #ddd;
+    padding: 27px 19px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #5247ff;
+    margin: 0 0 10px 10px;
+    color: #000;
+   
+}
+.ch-box i{
+    font-size: 24px;
+    background: #5247ff2b;
+    border-radius: 50px;
+    padding: 8px;
+    color: #5247ff;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.ch-box p{
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 15px;
+    font-family: Poppins, Sans-serif;
+}
+.ch-box:hover{
+    background-image: linear-gradient(100deg, #7474bf 0, #348ac7 100%);
+    color: #fff;
+}
+.ch-box:hover i{
+    background: #000;
+    color: #fff;
+}
+.icon-box{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+.bcka-color{
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+.kind{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 45px;
+}
+
+.kind h1{
+    line-height: 65px;
+    font-size: 52px;
+    font-weight: 600;
+    letter-spacing: -.05em;
+    text-align: center;
+    position: relative;
+    color: #000;
+}
+.kind h1 p{
+    font-size: 17px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-family: system-ui;
+}
+   

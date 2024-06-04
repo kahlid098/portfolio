@@ -1,0 +1,166 @@
+.balance{
+    line-height: 65px;
+    font-size: 52px;
+    font-weight: 600;
+    letter-spacing: -.05em;
+    text-align: center;
+    padding-bottom: 30px;
+    position: relative;
+    color: #000;
+    margin-top: 100px;
+}
+.balance::after{
+    content: '';
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 120px;
+    bottom: 8px;
+    left: 44%;
+    margin-right: 2%;
+    border-radius: .25rem;
+    background-color: #ff1732;
+}
+.first-box{
+    text-align: center;
+    width: 25%;
+    box-shadow: 0 0 14px #ddd;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.first-box1 img{
+    width: 39%;
+    margin-top: 5px;
+}
+.first-box1{
+    text-align: center;
+    width: 24%;
+    box-shadow: 0 0 14px #ddd;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.first-box1::before{  
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../components/image/service-pattern.png.webp);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.first-box::before{  
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../components/image/service-pattern.png.webp);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.first-box img{
+    width: 39%;
+    margin-top: 5px;
+}
+.heeed{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.webc{
+    position: absolute;
+    left: 38%;
+    top: 41%;
+}
+.relative{
+    position: relative;
+}
+@keyframes mk_tossing {
+    0%,100% {
+        -webkit-transform: rotate(-6deg);
+        transform: rotate(-6deg)
+    }
+
+    50% {
+        -webkit-transform: rotate(6deg);
+        transform: rotate(6deg)
+    }
+
+}
+
+/* Apply the animation to the .design class */
+.design {
+    animation: 2s linear infinite mk_tossing;
+    -webkit-animation: 2s linear infinite mk_tossing;
+}
+
+
+
+
+.define{
+    font-size: 16px;
+    color: #000;
+    line-height: 1.5em;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+@media only screen and (max-width: 600px){
+    .balance {
+        line-height: 33px;
+        font-size: 26px;
+        font-weight: 600;
+        letter-spacing: -.05em;
+        text-align: center;
+        padding-bottom: 30px;
+        position: relative;
+        color: #000;
+        margin-top: 42px;
+    }
+    .balance::after {
+        content: '';
+        position: absolute;
+        content: '';
+        height: 2px;
+        width: 120px;
+        bottom: 8px;
+        left: 34%;
+        margin-right: 2%;
+        border-radius: .25rem;
+        background-color: #ff1732;
+    }
+    .first-box {
+        text-align: center;
+        width: 100%;
+        box-shadow: 0 0 14px #ddd;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        padding: 15px;
+        position: relative;
+        overflow: hidden;
+    }
+    .first-box1 {
+        text-align: center;
+        width: 100%;
+        box-shadow: 0 0 14px #ddd;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        padding: 15px;
+        position: relative;
+        overflow: hidden;
+    }
+    .webc {
+        position: absolute;
+        left: 12%;
+        top: 43%;
+    }
+    .number {
+        margin-top: 256px;
+    }
+}
