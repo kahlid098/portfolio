@@ -94,6 +94,11 @@ iframe{
 .wi-box span{
     font-weight: 600;
 }
+.john{
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    line-height: 1;
+    margin-top: 14px;
+}
 .wi-box::after{
     content: '';
     position: absolute;

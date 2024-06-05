@@ -1,6 +1,13 @@
 import React from "react";
 import "../components/Card2.css";
 import project from "../components/image/project-1.png";
+import scope from '../components/image/scope-1.png'
+import architech from '../components/image/architecture.webp'
+import design from '../components/image/design.png'
+import develop from '../components/image/development.png'
+import testing from '../components/image/testing.png'
+import launch from '../components/image/launch.webp'
+import main from '../components/image/maintainance.png'
 import webdesign from "../components/image/web.webp";
 
 const Card2 = () => {
@@ -26,12 +33,11 @@ const Card2 = () => {
               </p>
             </div>
             <div className="first-box">
-              <img src={project} alt="" />
-              <h2 className="heeed">1. Project Definition</h2>
+              <img src={scope} alt="" />
+              <h2 className="heeed">2. Project Scope</h2>
               <p className="define">
                 {" "}
-                We start with defining the business goals which website should
-                accomplish.
+                Our Expert web designers work together with you to write the scope of the project.
               </p>
             </div>
           </div>
@@ -42,21 +48,19 @@ const Card2 = () => {
 
           <div className="d-flex">
             <div className="first-box number">
-              <img src={project} alt="" />
-              <h2 className="heeed">1. Project Definition</h2>
+              <img src={architech} alt="" />
+              <h2 className="heeed">3. Website Architecture</h2>
               <p className="define">
                 {" "}
-                We start with defining the business goals which website should
-                accomplish.
+                The architecture of the website determines how the users will interact with the website.
               </p>
             </div>
             <div className="first-box">
-              <img src={project} alt="" />
-              <h2 className="heeed">1. Project Definition</h2>
+              <img src={design} alt="" />
+              <h2 className="heeed">4. Website Designing</h2>
               <p className="define">
                 {" "}
-                We start with defining the business goals which website should
-                accomplish.
+                Our creative web designers in India then convert the architecture into visually appealing web design.
               </p>
             </div>
           </div>
@@ -65,39 +69,35 @@ const Card2 = () => {
       <div className="container">
       <div className="d-flex">
         <div className="first-box1">
-          <img src={project} alt="" />
-          <h2 className="heeed">1. Project Definition</h2>
+          <img src={develop} alt="" />
+          <h2 className="heeed">5. Web Development</h2>
           <p className="define">
             {" "}
-            We start with defining the business goals which website should
-            accomplish.
+            Our web development team then convert these designs into fully functional web pages.
           </p>
         </div>
         <div className="first-box1">
-          <img src={project} alt="" />
-          <h2 className="heeed">1. Project Definition</h2>
+          <img src={testing} alt="" />
+          <h2 className="heeed">6. Website Testing</h2>
           <p className="define">
             {" "}
-            We start with defining the business goals which website should
-            accomplish.
+            Our QA team tests the website in real online environment across all devices.
           </p>
         </div>
         <div className="first-box1">
-          <img src={project} alt="" />
-          <h2 className="heeed">1. Project Definition</h2>
+          <img src={launch} alt="" />
+          <h2 className="heeed">7. Website Launch</h2>
           <p className="define">
             {" "}
-            We start with defining the business goals which website should
-            accomplish.
+            After launch we monitor the website for next two months free of cost to check the performance.
           </p>
         </div>
         <div className="first-box1">
-          <img src={project} alt="" />
-          <h2 className="heeed">1. Project Definition</h2>
+          <img src={main} alt="" />
+          <h2 className="heeed">8. Website Maintenance</h2>
           <p className="define">
             {" "}
-            We start with defining the business goals which website should
-            accomplish.
+            We make sure the website is updated and backed up regularly
           </p>
         </div>
       </div>

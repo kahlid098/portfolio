@@ -4,12 +4,16 @@
 }
 .bg-color{
     background: #252734;
-    padding: 5px 0;
+    padding: 3px 0;
     margin-bottom: 1px;
 }
 .icon-color{
     color: #fff;
-    font-size: inherit;
+    font-size: 15px;
+}
+.container4{
+    width: 85%;
+    margin: 0 auto;
 }
 .d-flex{
     display: flex;
@@ -21,23 +25,25 @@
     align-items: center;
     color: #fff;
     font-size: 12px;
-    gap: 6px;
+    gap: 4px;
 }
 .sociel-icon{
     display: flex;
 }
 .icon{
     display: flex;
-    gap: 30px;
+    gap: 33px;
 }
 .information{
-    font-size: 16px;
+    font-size: 14px;
     color: #fff;
 }
-.border{
-    border-right: 1px solid #fff;
-    padding: 0 10px 0 0;
-    margin: 0 11px 0 0;
+.border::after{
+    content: "";
+    border-right: 1px solid #ddd;
+    display: inline-block;
+    height: 15px;
+    margin: 0 11px;
 }
 .ul{
     display: flex;
@@ -183,8 +189,10 @@
     }
     .icon {
         display: flex;
+        justify-content: center;
         gap: 27px;
     }
+
     .image {
         padding: 6px 0px;
         width: 28%;

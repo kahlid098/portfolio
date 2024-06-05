@@ -71,15 +71,15 @@ export default function SimpleSlider() {
         <div className="d-flex">
             <div className="wi-box box-mar">
                 <span>1000+</span>
-                <h1>Completed <br></br> Projects</h1>
+                <h1 className="john">Completed <br></br> Projects</h1>
             </div>
             <div className="wi-box box-mar">
-                <span>1000+</span>
-                <h1>Completed <br></br> Projects</h1>
+                <span>Best Offer</span>
+                <h1 className="john">Delivered On Time</h1>
             </div>
             <div className="wi-box box-mar">
-                <span>1000+</span>
-                <h1>Completed <br></br> Projects</h1>
+                <span>Best Web Maker</span>
+                <h1 className="john">100% Qc faster<br></br> production</h1>
             </div>
         </div>
       </div>

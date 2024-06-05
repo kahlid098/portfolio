@@ -4,8 +4,8 @@ import "../Pages/Home.css";
 import Card from "./Card";
 import Tech from "../components/Tech";
 import screan from "../components/image/Screen.png";
-import screan2 from "../components/image/Screen2.png";
 import screan3 from "../components/image/Screen3.png";
+import seen4 from "../components/image/seen4.png";
 import Card2 from "../components/Card2";
 import SimpleSlider from "./Slider";
 import Chooseus from "./Chooseus/Chooseus";
@@ -140,61 +140,53 @@ const Home = () => {
             <div className="work-together">
               <h1 className="lets">Let's Work Together</h1>
               <p className="gon">
-                We’re passionate about brilliant ideas and the execution that
+                We, re passionate about brilliant ideas and the execution that
                 brings it all together in one beautiful experience. If you are
                 too, call or send us an email to get started.
               </p>
             </div>
 
             <div className="d-flex marrr">
-
-           
-
-            <div className="screen b-right">
-              <img src={screan} alt=""  className="immggg"/>
-              <div>
-                <h1 className="heading">WE DISCUSS</h1>
-                <p className="paragraph">
-                  We’re a full-service Web Development agency that hustles hard
-                  to makes users happy while infusing everything we do with the
-                  heart.
-                </p>
+              <div className="screen b-right">
+                <img src={screan} alt="" className="immggg" />
+                <div>
+                  <h1 className="heading">WE DISCUSS</h1>
+                  <p className="paragraph">
+                    We ,re a full-service Web Development agency that hustles
+                    hard to makes users happy while infusing everything we do
+                    with the heart.
+                  </p>
+                </div>
               </div>
-            </div>
 
-            <div className="screen b-right">
-              <img src={screan} alt=""  className="immggg"/>
-              <div>
-                <h1 className="heading">WE DISCUSS</h1>
-                <p className="paragraph">
-                  We’re a full-service Web Development agency that hustles hard
-                  to makes users happy while infusing everything we do with the
-                  heart.
-                </p>
+              <div className="screen b-right">
+                <img src={seen4} alt="" className="immggg" />
+                <div>
+                  <h1 className="heading">WE DEVELOP</h1>
+                  <p className="paragraph">
+                      We see beyond the insights and take you to the eye stand.
+                  </p>
+                </div>
               </div>
-            </div>
 
-            <div className="screen">
-              <img src={screan} alt=""  className="immggg"/>
-              <div>
-                <h1 className="heading">WE DISCUSS</h1>
-                <p className="paragraph">
-                  We’re a full-service Web Development agency that hustles hard
-                  to makes users happy while infusing everything we do with the
-                  heart.
-                </p>
+              <div className="screen">
+                <img src={screan3} alt="" className="immggg" />
+                <div>
+                  <h1 className="heading">WE DELIVER</h1>
+                  <p className="paragraph">
+                    As a multifaceted Web Development agency, we craft beautiful
+                    solutions that outdo business goals and garner recognition.
+                  </p>
+                </div>
               </div>
-            </div>
-
             </div>
           </div>
         </div>
       </div>
 
-      <Card2/>
-      <SimpleSlider/>
-      <Chooseus/>
-      
+      <Card2 />
+      <SimpleSlider />
+      <Chooseus />
     </>
   );
 };

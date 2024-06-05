@@ -11,17 +11,22 @@
     padding: 14px;
     border-radius: 6px;
     box-shadow: 7px 9px 5px #bcbbcf;
+    transition: all 0.5s;
 }
 .card:hover{
     background: #5247ff33;
 }
 .think{
-    font-size: 16px;
+    font-size: 14px;
     padding-bottom: 36px;
     border-bottom: 1px solid #ccc;
+    color: #9b8f8f;
 }
 .web{
-    margin: 16px 10px;
+    margin: 15px 0 7px 0;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .read-more{
@@ -34,6 +39,9 @@
     background: #5247ff !important;
     padding: 10px 24px;
     margin: 14px 0 0 0;
+}
+.read-more:hover {
+    background: #000 !important;
 }
 .mar{
     margin-top: 50px !important;

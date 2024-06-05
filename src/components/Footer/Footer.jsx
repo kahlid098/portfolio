@@ -8,6 +8,8 @@ import { FaSkype } from "react-icons/fa6";
 import footerimg from "../image/img.jpg";
 
 import TestimonialCarousel from '../../Pages/testimonial';
+import FacebookIframe from '../../Pages/Facebook';
+import FacebookPageEmbed from '../../Pages/Facebook';
 
 const Footer = () => {
     return (
@@ -48,37 +50,13 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="content4">
-                        <div className='img-box'>
-                            <div className='inner-top'>
-                                <span>logo</span><span><a href="#">Fahim sakir websites</a></span>
-                                <br /><span><a href="#">Follow page</a></span>
-                            </div>
-                            <div className="inner1">
-                                <img src={footerimg} alt="" />
-                                <div className='inmain'>
-                                    <div className='inimg'><img src={footerimg} alt="" /></div>
-                                    <h3>Fahim sakir websites Developer</h3>
-                                </div>
-                                <div>
-                                    <a href="#">2 week ago</a>
-                                    <p>moodle development</p>
-                                    <a href="#">www.fahimshakir.com</a>
-                                    <br />
-                                    <a href="#">info@fahimshakir.com</a>
-                                    <p>91 9718925775</p>
-                                </div>
-                                <div>
-                                    <span>like</span>
-                                    <span>Comment</span>
-                                    <span>Share</span>
-                                </div>
-                            </div>
-                            <img src={footerimg} alt="" />
-                            <img src={footerimg} alt="" />
-                            <img src={footerimg} alt="" />
-                        </div>
+                        <FacebookPageEmbed/>
                     </div>
                 </div>
+            </div>
+
+            <div className='copy'>
+                <p>Copyright © 2024 <span>Fahim Shakir Web Developer</span> All rights reserved.</p>
             </div>
         </>
     )

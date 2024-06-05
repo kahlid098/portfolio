@@ -3,11 +3,11 @@ import "../Header/Header.css";
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaPinterest } from "react-icons/fa";
-import { CiInstagram } from "react-icons/ci";
+import { ImInstagram } from "react-icons/im";
 import { FaLinkedinIn } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { IoLogoAndroid } from "react-icons/io";
-import { CiMail } from "react-icons/ci";
+import { VscGithub } from "react-icons/vsc";
+import { BsAndroid2 } from "react-icons/bs";
+import { GoMail } from "react-icons/go";
 import { FaSkype } from "react-icons/fa";
 import { IoIosCall } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
@@ -30,7 +30,7 @@ const Header = () => {
   return (
     <>
       <div className="bg-color">
-        <div className="container">
+        <div className="container4">
 
           <div className="d-flex">
             <div className="icon">
@@ -44,22 +44,22 @@ const Header = () => {
               <FaPinterest className="icon-color" />
             </a>
             <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-              <CiInstagram className="icon-color" />
+              <ImInstagram className="icon-color" />
             </a>
             <a href="https://github.com" className="icon-link" target="_blank" rel="noopener noreferrer" >
               <FaLinkedinIn className="icon-color" />
             </a>
             <a href="https://github.com" className="facebook-icon" target="_blank" rel="noopener noreferrer">
-              <FaGithub className="icon-color" />
+              <VscGithub className="icon-color" />
             </a>
             <a href="https://github.com" className="icon-link" target="_blank" rel="noopener noreferrer">
-              <IoLogoAndroid className="icon-color" />
+              <BsAndroid2 className="icon-color" />
             </a>
             </div>
 
        <div className="sociel-icon">
           <a href="https://github.com" className="icon-link" target="_blank" rel="noopener noreferrer">
-          <span  className="border"> <CiMail  className="information"/> fahimshakir786@gmail.com</span>
+          <span  className="border"> <GoMail  className="information"/> fahimshakir786@gmail.com</span>
           </a>
 
           <a href="https://github.com" className="icon-link" target="_blank" rel="noopener noreferrer">
@@ -80,7 +80,7 @@ const Header = () => {
 
 
     <div className="bg-color">
-      <div className="container">
+      <div className="container4">
       <div className="d-flex">
           <img src={logo} alt="Logo" className="image"/>
           <FaBars  className="bar" onClick={handleClick}/>
