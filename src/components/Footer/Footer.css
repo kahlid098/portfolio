@@ -2,10 +2,11 @@
     border-top: 5px solid blue;
     background-color: #252734;
     color:white ;
-    padding: 30px;
+    padding: 70px 37px;
+    margin-top: 100px;
 }
 .icon_list_icon{
-    width: 100px;
+    width: 100px;   
 }
 .container{
     width: 90%;
@@ -13,35 +14,61 @@
 }
 .flex-boxes{
     display: flex !important;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 30px;
 }
 
 .content1{
-    width: 23%;
+    width: 30%;
+    padding-right: 20px;
 }
 .content1 h2{
-    margin-bottom: 20px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 0;
+    position: relative;
+    margin-bottom: 0;
+}
+.cochead{
+    position: relative;
+}
+.reed{
+    color: #ffb947;
+}
+.cochead::after{
+    content: '';
+    height: 2px;
+    border-radius: .25rem;
+    background-color: #ffb947;
+    width: 29%;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
 }
 .content1 p{
-    word-spacing: 2px;
     font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    padding-top: 20px;
 }
 .content4 img{
     width: 90%;
     padding-top: 45px;
 }
+.list-section{
+    padding-top: 20px;
+}
 .content1 ul li {
-        margin-bottom: 11px;
-        cursor: pointer;
-        display: flex;
-        font-size: 13px;
+    display: flex;
+    gap: 20px;
+    padding-bottom: calc(10px / 2);
+    align-items: center;
+    margin-bottom: 6px;
 }
 .sp{
-    margin-right: 10px;
-    cursor: pointer;
-    color: white;
+   font-size: 15px;
+   color: #fff;
 }
 .img-box{
     width: 250px;
@@ -49,6 +76,18 @@
     background-color: red;
     text-align: center;
     overflow-y: scroll;
+}
+.list-section li{
+    display: flex;
+    gap: 20px;
+    padding-bottom: calc(10px / 2);
+    align-items: center;
+}
+.list-section li span{
+    font-size: 15px;
+}
+.list-section li span a{
+    color: #fff;
 }
 .inner-top{
     position: fixed;
@@ -198,7 +237,7 @@
   
   /* Handle */
   .typ::-webkit-scrollbar-thumb {
-    background: #d17070;
+    background: #504b4b;
   }
  
   /* Handle on hover */
@@ -222,6 +261,13 @@
 }
   
 @media only screen and (max-width: 600px){
+    .FooterMain {
+        border-top: 5px solid blue;
+        background-color: #252734;
+        color: white;
+        padding: 70px 0px;
+        margin-top: 100px;
+    }
     .content1 {
         width: 100% !important;
     }

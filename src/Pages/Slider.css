@@ -173,6 +173,14 @@ iframe{
         background: #000;
         margin-bottom: 15px;
     }
+    .align-center p {
+        color: #fff;
+        font-family: system-ui;
+        margin-top: 10px;
+        line-height: 2;
+        padding: 0 13px;
+        font-size: 12px;
+    }
     .wi-box {
         width: 100%;
         padding: 20px;

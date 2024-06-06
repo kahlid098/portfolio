@@ -1,4 +1,5 @@
 import ImageSlider from "./Slic-slider";
+import "../components/Header/Header.css"
 
 const ImageSlid = () => {
   const slides = [
@@ -15,7 +16,7 @@ const ImageSlid = () => {
   };
   return (
     <div>
-      <div style={containerStyles}>
+      <div style={containerStyles} className="res">
         <ImageSlider slides={slides} />
       </div>
     </div>

@@ -20,31 +20,54 @@ const Footer = () => {
             <div className="FooterMain">
                 <div className='container flex-boxes'>
                     <div className="content1">
-                        <h2>About Us</h2>
+                        <h2 className='cochead'>About Us</h2>
                         <p>My name is Fahim Shakir. In the discipline of Web Development and Design I am full stack prominent as PHP Programmer / Web Developer / Web Freelancer. I am reputated by my outstanding work, excellent programming skills and versatile nature of program coding with Software and Website Development.
-                            I am full stack developed many web based applications. I am persistent in developing the web application as well as dynamic websites <a href="about-us.php">Readmore</a></p>
+                            I am full stack developed many web based applications. I am persistent in developing the web application as well as dynamic websites <a href="about-us.php" className='reed'>Readmore</a></p>
                     </div>
                     <div className="content1">
-                        <h2>Contect Us</h2>
-                        <ul>
-                            <li><a href='#' className='sp'><FaLocationDot /></a>Block C-11B, Top Floor, New Ashok Nagar</li>
-                            <li><a href='#' className='sp'><FaLocationDot /></a>Delhi NCR 110096, India</li>
-                            <li><a href='#' className='sp'><IoMdCall /></a>09718925775</li>
-                            <li><a href='#' className='sp'><FaWhatsapp /></a>09268751849</li>
-                            <li><a href='#' className='sp'><CiMail /></a>fahimshakir786@gmail.com</li>
-                            <li><a href='#' className='sp'><CiMail /></a>info@fahimshakir.com </li>
-                            <li><a href='#' className='sp'><FaSkype /></a>fahim.shakir40</li>
+                        <h2 className='cochead'>Contect Us</h2>
+                        <ul className='list-section'>
+                            <li>
+                                <span><FaLocationDot /></span>
+                                <span className='sp'>Block C-11B, Top Floor, New Ashok Nagar</span>
+                            </li>
+                            <li>
+                                <span><FaLocationDot /></span>
+                                <span><a href='#' className='sp'> Delhi NCR 110096, India</a></span>    
+                            </li>
+                            <li>
+                                <span><IoMdCall /> </span>
+                                <span><a href='#' className='sp'>09718925775</a></span>
+                            </li>
+                            <li>
+                                <span><FaWhatsapp /></span>
+                                <span><a href='#' className='sp'> 09268751849</a></span>
+                            </li>
+                            <li>
+                                <span><CiMail /></span>
+                                <span><a href='#' className='sp'>fahimshakir786@gmail.com</a></span>
+                            </li>
+                            <li>
+                                <span><CiMail /></span>
+                                <span><a href='#' className='sp'> info@fahimshakir.com</a></span> 
+                            </li>
+                            <li>
+                                <span><FaSkype /></span>
+                                <span><a href='#' className='sp'> fahim.shakir40</a></span>
+                            </li>
                         </ul>
                     </div>
                     <div className="content1">
-                        <h2>Usefull Link</h2>
-                        <ul>
-                            <li>ABOUT US</li>
-                            <li>My RESUME</li>
-                            <li>OUR SERVICES</li>
-                            <li>CONTACT US</li>
-                            <li>Privacy Policy</li>
-                            <li>Terms & Conditions</li>
+                        <h2 className='cochead'>Usefull Links</h2>
+                        <ul className='list-section'>
+                            <li><span><a href="#">ABOUT US</a></span></li>
+                            <li><span><a href="#">My RESUME</a></span></li>
+                            <li><span><a href="#">OUR SERVICES</a></span></li>
+                            <li><span><a href="#">OUR PORTFOLIO</a></span></li>
+                            <li><span><a href="#">BLOG</a></span></li>
+                            <li><span><a href="#">CONTACT US</a></span></li>
+                            <li><span><a href="#">Privacy Policy</a></span></li>
+                            <li><span><a href="#">Terms & Conditions</a></span></li>
                         </ul>
                     </div>
                     <div className="content4">
