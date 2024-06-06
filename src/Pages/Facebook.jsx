@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import "../components/Footer/Footer.css"
+import '../Pages/facesbook.css'
 
 const FacebookPageEmbed = () => {
   useEffect(() => {
@@ -15,7 +15,7 @@ const FacebookPageEmbed = () => {
         data-href="https://www.facebook.com/FahimShakirWebsiteDeveloper/"
         data-tabs="timeline"
         data-width="500"
-        data-height="300"
+        data-height="310"
         data-small-header="false"
         data-adapt-container-width="true"
         data-hide-cover="false"

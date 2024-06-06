@@ -22,16 +22,15 @@
     width: 30%;
     padding-right: 20px;
 }
-.content1 h2{
+
+.cochead{
+    position: relative;
     font-size: 20px;
     font-weight: 600;
     color: #fff;
     margin-top: 0;
     position: relative;
     margin-bottom: 0;
-}
-.cochead{
-    position: relative;
 }
 .reed{
     color: #ffb947;
@@ -47,25 +46,37 @@
     left: 0;
 }
 .content1 p{
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 21px;
     padding-top: 20px;
+}   
+.lfloat ._1drq{
+    margin-left: 90px !important;
+}
+._1drm ._1z7u {
+    bottom: 70px;
+    height: 24px;
+    left: 58px;
+    position: absolute;
+    right: 0;
+    z-index: 2;
 }
 .content4 img{
     width: 90%;
     padding-top: 45px;
 }
 .list-section{
-    padding-top: 20px;
+    padding-top: 23px;
 }
 .content1 ul li {
     display: flex;
     gap: 20px;
     padding-bottom: calc(10px / 2);
     align-items: center;
-    margin-bottom: 6px;
+    margin-bottom: 5px;
 }
+
 .sp{
    font-size: 15px;
    color: #fff;
@@ -80,7 +91,7 @@
 .list-section li{
     display: flex;
     gap: 20px;
-    padding-bottom: calc(10px / 2);
+    padding-bottom: calc(21px / 2);
     align-items: center;
 }
 .list-section li span{
@@ -255,10 +266,6 @@
     -moz-osx-font-smoothing: grayscale;
     font-size: 40px;
 }
- ._2p3a {
-    min-width: 180px;
-    width: 198px;
-}
   
 @media only screen and (max-width: 600px){
     .FooterMain {
@@ -290,4 +297,18 @@
         font-size: 10px;
         padding: 0 10px;
     }
+
+}
+.content4{
+    width: 25%;
+    display: block;
+    box-shadow: 0 4px 8px 0 #154fc1;
+    height: 310px;
+    border: 1px solid #fff;
+}  
+.content3{
+    width: 28%;
+}
+.content6{
+    width: 20%;
 }

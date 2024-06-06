@@ -17,14 +17,14 @@ const Footer = () => {
 
 
             {/* footer main */}
-            <div className="FooterMain">
-                <div className='container flex-boxes'>
+            <div className="FooterMain ">
+                <div className='container flex-boxes '>
                     <div className="content1">
                         <h2 className='cochead'>About Us</h2>
                         <p>My name is Fahim Shakir. In the discipline of Web Development and Design I am full stack prominent as PHP Programmer / Web Developer / Web Freelancer. I am reputated by my outstanding work, excellent programming skills and versatile nature of program coding with Software and Website Development.
                             I am full stack developed many web based applications. I am persistent in developing the web application as well as dynamic websites <a href="about-us.php" className='reed'>Readmore</a></p>
                     </div>
-                    <div className="content1">
+                    <div className="content3">
                         <h2 className='cochead'>Contect Us</h2>
                         <ul className='list-section'>
                             <li>
@@ -57,7 +57,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="content1">
+                    <div className="content6">
                         <h2 className='cochead'>Usefull Links</h2>
                         <ul className='list-section'>
                             <li><span><a href="#">ABOUT US</a></span></li>
@@ -71,7 +71,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="content4">
-                        <FacebookPageEmbed/>
+                    <FacebookPageEmbed />
                     </div>
                 </div>
             </div>

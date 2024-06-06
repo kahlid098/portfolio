@@ -9,6 +9,7 @@ import Card2 from "../components/Card2";
 import SimpleSlider from "./Slider";
 import Chooseus from "./Chooseus/Chooseus";
 import ImageSlid from "./ImageSlide";
+import { FaArrowUp } from "react-icons/fa"; 
 
 const Home = () => {
   const mycard = [
@@ -187,6 +188,8 @@ const Home = () => {
       <Card2 />
       <SimpleSlider />
       <Chooseus />
+
+      <a href="#" className="top-icon"><FaArrowUp /></a>
     </>
   );
 };
