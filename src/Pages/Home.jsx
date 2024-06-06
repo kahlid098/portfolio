@@ -1,5 +1,4 @@
 import React from "react";
-import Slic from "./Slic-slider";
 import "../Pages/Home.css";
 import Card from "./Card";
 import Tech from "../components/Tech";
@@ -9,6 +8,7 @@ import seen4 from "../components/image/seen4.png";
 import Card2 from "../components/Card2";
 import SimpleSlider from "./Slider";
 import Chooseus from "./Chooseus/Chooseus";
+import ImageSlid from "./ImageSlide";
 
 const Home = () => {
   const mycard = [
@@ -118,7 +118,7 @@ const Home = () => {
   return (
     <>
       <div>
-        <Slic />
+        <ImageSlid/>
         <Card />
         <div className="tech-main-box">
           <h1 className="font">Use Technology</h1>

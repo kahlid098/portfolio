@@ -5,10 +5,8 @@ import { IoMdCall } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
 import { FaSkype } from "react-icons/fa6";
-import footerimg from "../image/img.jpg";
 
 import TestimonialCarousel from '../../Pages/testimonial';
-import FacebookIframe from '../../Pages/Facebook';
 import FacebookPageEmbed from '../../Pages/Facebook';
 
 const Footer = () => {

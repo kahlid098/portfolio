@@ -30,9 +30,10 @@
 .sociel-icon{
     display: flex;
 }
-.icon{
+.icon {
     display: flex;
-    gap: 33px;
+    gap: 31px;
+    padding: 1px 4px;
 }
 .information{
     font-size: 14px;

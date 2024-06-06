@@ -34,25 +34,25 @@ const Header = () => {
 
           <div className="d-flex">
             <div className="icon">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/FahimShakirWebsiteDeveloper/" target="_blank" rel="noopener noreferrer">
               <FaFacebookF className="icon-color" />
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://x.com/i/flow/login?redirect_after_login=%2Ffahimshakir786" target="_blank" rel="noopener noreferrer">
               <FaXTwitter className="icon-color" />
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" >
+            <a href="https://in.pinterest.com/fahimwebdeveloper/_saved/" target="_blank" rel="noopener noreferrer" >
               <FaPinterest className="icon-color" />
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/fahimwebdeveloper/" target="_blank" rel="noopener noreferrer">
               <ImInstagram className="icon-color" />
             </a>
-            <a href="https://github.com" className="icon-link" target="_blank" rel="noopener noreferrer" >
+            <a href="https://www.linkedin.com/" className="icon-link" target="_blank" rel="noopener noreferrer" >
               <FaLinkedinIn className="icon-color" />
             </a>
-            <a href="https://github.com" className="facebook-icon" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/fahim-web-developer" className="facebook-icon" target="_blank" rel="noopener noreferrer">
               <VscGithub className="icon-color" />
             </a>
-            <a href="https://github.com" className="icon-link" target="_blank" rel="noopener noreferrer">
+            <a href="https://play.google.com/store/apps/details?id=com.fahimshakir2" className="icon-link" target="_blank" rel="noopener noreferrer">
               <BsAndroid2 className="icon-color" />
             </a>
             </div>

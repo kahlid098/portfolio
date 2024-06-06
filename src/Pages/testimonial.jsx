@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { FaGoogle } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
 import '../components/Footer/Footer.css';
+import screenshot from "../components/image/mm.png"
 
 const TestimonialCarousel = () => {
   const settings = {
@@ -55,12 +56,12 @@ const TestimonialCarousel = () => {
               <div className="h-flex">
                 <div className="h">H</div>
                 <div>
-                  <h3>harish kumar</h3>
-                  <p>3 Year ago</p>
+                  <h3 className="clf">harish kumar</h3>
+                  <p className="year">3 Year ago</p>
                 </div>
               </div>
               <span>
-                <FaGoogle />
+                <img src={screenshot} alt="" />
               </span>
             </div>
             <div className="st5">
@@ -87,11 +88,11 @@ const TestimonialCarousel = () => {
                 <div className="h">H</div>
                 <div>
                   <h3 className="clf">Vishu Agrwal</h3>
-                  <p>a month ago</p>
+                  <p className="year">a month ago</p>
                 </div>
               </div>
               <span>
-                <FaGoogle />
+               <img src={screenshot} alt="" />
               </span>
             </div>
             <div className="st5">
@@ -114,11 +115,11 @@ const TestimonialCarousel = () => {
                 <div className="h">H</div>
                 <div>
                   <h3 className="clf">Faisal afridi</h3>
-                  <p>a Year ago</p>
+                  <p className="year">a Year ago</p>
                 </div>
               </div>
               <span>
-                <FaGoogle />
+              <img src={screenshot} alt="" />
               </span>
             </div>
             <div className="st5">
@@ -143,11 +144,11 @@ const TestimonialCarousel = () => {
                 <div className="h">H</div>
                 <div>
                   <h3 className="clf">Gamer buddy</h3>
-                  <p>6 Year ago</p>
+                  <p className="year">6 Year ago</p>
                 </div>
               </div>
               <span>
-                <FaGoogle />
+              <img src={screenshot} alt="" />
               </span>
             </div>
             <div className="st5">
@@ -170,11 +171,11 @@ const TestimonialCarousel = () => {
                 <div className="h">H</div>
                 <div>
                   <h3 className="clf">jatin nanda</h3>
-                  <p>3 Year ago</p>
+                  <p className="year">3 Year ago</p>
                 </div>
               </div>
               <span>
-                <FaGoogle />
+              <img src={screenshot} alt="" />
               </span>
             </div>
             <div className="st5">
@@ -196,11 +197,11 @@ const TestimonialCarousel = () => {
                 <div className="h">H</div>
                 <div>
                   <h3 className="clf">Gurjas bedy</h3>
-                  <p>A Year ago</p>
+                  <p className="year">A Year ago</p>
                 </div>
               </div>
               <span>
-                <FaGoogle className="FaGoogle" />
+              <img src={screenshot} alt="" />
               </span>
             </div>
             <div className="st5">
@@ -223,11 +224,11 @@ const TestimonialCarousel = () => {
                 <div className="h">H</div>
                 <div>
                   <h3 className="clf">Shiraj Alam </h3>
-                  <p>5 Year ago</p>
+                  <p className="year">5 Year ago</p>
                 </div>
               </div>
               <span>
-                <FaGoogle />
+              <img src={screenshot} alt="" />
               </span>
             </div>
             <div className="st5">
@@ -250,11 +251,11 @@ const TestimonialCarousel = () => {
                 <div className="h">H</div>
                 <div>
                   <h3 className="clf">Gaorav arora</h3>
-                  <p>3 Year ago</p>
+                  <p className="year">3 Year ago</p>
                 </div>
               </div>
               <span>
-                <FaGoogle />
+              <img src={screenshot} alt="" />
               </span>
             </div>
             <div className="st5">

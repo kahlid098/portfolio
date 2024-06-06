@@ -1,48 +1,117 @@
-import React from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import First from '../components/image/first.webp'
-import Second from '../components/image/1.webp'
-import Third from '../components/image/2.webp'
-import forth from '../components/image/3.webp'
-import five from '../components/image/4.webp'
-import six from '../components/image/5.webp'
-import '../Pages/Slick.css'
+import React, { useState, useEffect } from "react";
 
-function Slic() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+const slideStyles = {
+  width: "100%",
+  height: "100%",
+  backgroundSize: "cover",
+  backgroundPosition: "center",
+  transition: "all 1s",
+};
+
+const rightArrowStyles = {
+  position: "absolute",
+  top: "50%",
+  transform: "translate(0, -50%)",
+  right: "0px",
+  fontSize: "26px",
+  color: "#fff",
+  zIndex: 1,
+  cursor: "pointer",
+  background: "#252734ad",
+  textAlign: "center",
+  width: "51px",
+};
+
+const leftArrowStyles = {
+  position: "absolute",
+  top: "50%",
+  transform: "translate(0px, -50%)",
+  left: "0",
+  fontSize: "26px",
+  color: "rgb(255, 255, 255)",
+  zIndex: "1",
+  cursor: "pointer",
+  width: "51px",
+  background: "#252734ad",
+  textAlign: "center",
+};
+
+const sliderStyles = {
+  position: "relative",
+  height: "100%",
+};
+
+const dotsContainerStyles = {
+  display: "flex",
+  justifyContent: "center",
+};
+
+const dotStyle = {
+  margin: "0 3px",
+  cursor: "pointer",
+  fontSize: "20px",
+};
+
+const ImageSlider = ({ slides, autoPlay = true, autoPlayTime = 3000 }) => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const goToPrevious = () => {
+    const isFirstSlide = currentIndex === 0;
+    const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
+    setCurrentIndex(newIndex);
+  };
+
+  const goToNext = () => {
+    const isLastSlide = currentIndex === slides.length - 1;
+    const newIndex = isLastSlide ? 0 : currentIndex + 1;
+    setCurrentIndex(newIndex);
+  };
+
+  const goToSlide = (slideIndex) => {
+    setCurrentIndex(slideIndex);
+  };
+
+  useEffect(() => {
+    if (!autoPlay) return;
+
+    const interval = setInterval(() => {
+      goToNext();
+    }, autoPlayTime);
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, [currentIndex, autoPlay, autoPlayTime]);
+
+  const slideStylesWidthBackground = {
+    ...slideStyles,
+    backgroundImage: `url(${slides[currentIndex].url})`,
   };
 
   return (
-    <div className="App">
-      <Slider {...settings}>
-        <div>
-          <img src={First} alt="first" className='imaggg' />
+    <div style={sliderStyles}>
+      <div>
+        <div onClick={goToPrevious} style={leftArrowStyles}>
+          ❰
         </div>
-        <div>
-          <img src={Second} alt="" className='imaggg'/>
+        <div onClick={goToNext} style={rightArrowStyles}>
+          ❱
         </div>
-        <div>
-        <img src={Third} alt=""  className='imaggg'/>
-        </div>
-        <div>
-        <img src={forth} alt=""  className='imaggg'/>
-        </div>
-        <div>
-        <img src={five} alt="" className='imaggg'/>
-        </div>
-        <div>
-        <img src={six} alt="" className='imaggg'/>
-        </div>
-      </Slider>
+      </div>
+      <div style={slideStylesWidthBackground}></div>
+      <div style={dotsContainerStyles}>
+        {slides.map((slide, slideIndex) => (
+          <div
+            style={dotStyle}
+            key={slideIndex}
+            onClick={() => goToSlide(slideIndex)}
+          >
+            ●
+          </div>
+        ))}
+      </div>
     </div>
   );
-}
+};
 
-export default Slic;
+export default ImageSlider;

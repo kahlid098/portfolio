@@ -43,8 +43,8 @@
 .read-more:hover {
     background: #000 !important;
 }
-.mar{
-    margin-top: 50px !important;
+.mar {
+    margin-top: 100px !important;
 }
 @media only screen and (max-width: 600px) {
     .mar{

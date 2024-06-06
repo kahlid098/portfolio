@@ -33,10 +33,10 @@
     padding-top: 45px;
 }
 .content1 ul li {
-    margin-bottom: 12px;
-    cursor: pointer;
-    display: flex;
-    font-size: 14px;
+        margin-bottom: 11px;
+        cursor: pointer;
+        display: flex;
+        font-size: 13px;
 }
 .sp{
     margin-right: 10px;
@@ -94,25 +94,60 @@
     background: #ffb947;
   }
 .g1{
-    width: 95% !important;
+    width: 93% !important;
     background-color: #fafafa;
-    padding: 10px;
+    padding: 20px;
     flex: 0 0 auto;
 }
 .typ{
     height: 113px;
     overflow-y: scroll;
-    font-size: 13px;
+    font-size: 14px;
 }
 
+.f-margin .slick-prev:before {
+    content: '←' !important;
+  
+    border-radius: 100% !important;
+    font-family: sans-serif !important;
+}
+.f-margin .slick-next:before{
+    content: '→' !important;
+    border-radius: 100% !important;
+    font-family: sans-serif !important;
+}
+.f-margin .slick-prev:before, .f-margin .slick-next:before {
+    width: 40px !important;
+    display: block !important;
+    height: 40px !important;
+    line-height: 40px !important;
+    background: white !important;
+    color: black !important;
+  
+    box-shadow: 2px 2px 12px #6b6b6b45 !important;   
+    opacity: 1 !important;
+}
+.f-margin .slick-next {
+    right: 10px !important;
+}
 .clf{
-    color: #3c3ca5;
-    font-size: 15px;
+    color: #154fc1;
+    text-decoration: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+.year{
+    font-size: 13px;
+    color: #555;
+    margin: 0;
 }
 .h{
    width: 40px;
    height: 40px;
-   background-color: rgb(60, 60, 165);
+   background-color: #0077b6;
    border-radius: 50px;
    text-align: center;
    line-height: 40px;
@@ -123,10 +158,12 @@
 .h-flex{
     display: flex;
     justify-content: space-between;
+    align-items: self-start;
 }
 .st5{
     color: #ffb947;
-    margin-top: 10px;
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
 .cnt{
     text-align: center;
@@ -163,6 +200,12 @@
   .typ::-webkit-scrollbar-thumb {
     background: #d17070;
   }
+ 
+  /* Handle on hover */
+ .typ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
   .slick-prev:before, .slick-next:before {
     font-family: 'slick';
     font-size: 20px;
@@ -173,10 +216,10 @@
     -moz-osx-font-smoothing: grayscale;
     font-size: 40px;
 }
-  /* Handle on hover */
- .typ::-webkit-scrollbar-thumb:hover {
-    background: #555;
-  }
+ ._2p3a {
+    min-width: 180px;
+    width: 198px;
+}
   
 @media only screen and (max-width: 600px){
     .content1 {

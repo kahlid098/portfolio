@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import "../components/Footer/Footer.css"
 
 const FacebookPageEmbed = () => {
   useEffect(() => {
