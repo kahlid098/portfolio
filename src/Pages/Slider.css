@@ -163,6 +163,12 @@ iframe{
     margin-top: 100px;
     margin-bottom: 100px;
 }
+.uniqe,.slick-prev {
+    left: 0px !important;
+}
+.uniqe,.slick-next {
+    right: 0px !important;
+}
 @media only screen and (max-width: 600px){
     .box-no {
         width: 100%;
@@ -216,5 +222,10 @@ iframe{
     .mabt {
         padding-bottom: 42px;
         padding-top: 73px;
+    }
+    .container2{
+        width: 85% !important;
+        margin: 0 auto !important;
+        display: block !important;
     }
 }

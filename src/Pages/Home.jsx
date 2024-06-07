@@ -10,7 +10,6 @@ import Card2 from "../components/Card2";
 import SimpleSlider from "./Slider";
 import Chooseus from "./Chooseus/Chooseus";
 import ImageSlid from "./ImageSlide";
-import { FaArrowUp } from "react-icons/fa"; 
 import WhatsAppPopup from "./Whatsapp";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";

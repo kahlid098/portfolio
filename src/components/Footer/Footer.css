@@ -307,6 +307,14 @@
         width: 100% !important;
         padding-bottom: 16px;
     }
+    .typ {
+        height: 97px;
+        overflow-y: scroll;
+        font-size: 14px;
+    }
+    .f-margin,.slick-prev{
+        left: -22px !important;
+    }
 
 }
 .content4{
@@ -322,4 +330,7 @@
 }
 .content6{
     width: 20%;
+}
+.f-margin,.slick-prev{
+    left: -22px !important;
 }

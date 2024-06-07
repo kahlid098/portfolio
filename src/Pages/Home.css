@@ -178,4 +178,8 @@
     .font {
         font-size: 34px;
     }    
+     .container2{
+        width: 85% !important;
+        margin: 0 auto !important;
+    }
 }

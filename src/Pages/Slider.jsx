@@ -4,6 +4,7 @@ import "../Pages/Slider.css";
 import diwaker from "../components/image/diwakr.png";
 import imran from "../components/image/imran.png";
 import hershita from "../components/image/harshita.png";
+import YoutubeSlider from "./YoutubeSlider";
 
 export default function SimpleSlider() {
   var settings = {
@@ -21,7 +22,7 @@ export default function SimpleSlider() {
           <h2>What our clients have to say</h2>
           <span>Happy Customer</span>
         </div>
-<div className="container margin">
+<div className="container margin uniqe">
         <Slider {...settings}>
           <div className="align-center">
             <img src={hershita} alt="" />
@@ -50,23 +51,7 @@ export default function SimpleSlider() {
           </div>
         </Slider>
         </div>
-       
-        <div className="container2">
-            <div className="d-flex mabt">
-                <div className="box-no">
-                <iframe  width="100%" height="100%" src="https://www.youtube.com/embed/W3Nt3lnJLUM" frameborder="0" allowfullscreen=""></iframe>
-                </div>
-                <div className="box-no">
-                <iframe  width="100%" height="100%" src="https://www.youtube.com/embed/xhg6bCboLD0?si=Dx8VnT14vp0LowWe" frameborder="0" allowfullscreen=""></iframe>
-                </div>
-                <div className="box-no">
-                <iframe  width="100%" height="100%" src="https://www.youtube.com/embed/JOns6D8fZpA?si=Pyyukrh3cIlQIXPO" frameborder="0" allowfullscreen=""></iframe>
-                </div>
-                <div className="box-no">
-                <iframe  width="100%" height="100%" src="https://www.youtube.com/embed/1w7ujjVdLmM?si=XgdUI8G6MkUhGilx" frameborder="0" allowfullscreen=""></iframe>
-                </div>
-            </div>
-        </div>
+       <YoutubeSlider/>
       </div>
 
       <div className="container">
