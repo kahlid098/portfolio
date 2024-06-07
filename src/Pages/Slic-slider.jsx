@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import '../Pages/Slick.css'
 
 const slideStyles = {
   width: "100%",
@@ -101,7 +102,7 @@ const ImageSlider = ({ slides, autoPlay = true, autoPlayTime = 3000 }) => {
       <div style={slideStylesWidthBackground}></div>
       <div style={dotsContainerStyles}>
         {slides.map((slide, slideIndex) => (
-          <div
+          <div  className="none"
             style={dotStyle}
             key={slideIndex}
             onClick={() => goToSlide(slideIndex)}

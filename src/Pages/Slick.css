@@ -5,3 +5,8 @@
 .App{
     margin-top: -1px;
 }
+@media only screen and (max-width: 600px){
+    .none{
+        display: none;
+    }
+}

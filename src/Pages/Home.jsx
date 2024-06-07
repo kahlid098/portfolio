@@ -1,4 +1,5 @@
-import React from "react";
+
+import React, { useState, useEffect } from 'react';
 import "../Pages/Home.css";
 import Card from "./Card";
 import Tech from "../components/Tech";
@@ -10,7 +11,10 @@ import SimpleSlider from "./Slider";
 import Chooseus from "./Chooseus/Chooseus";
 import ImageSlid from "./ImageSlide";
 import { FaArrowUp } from "react-icons/fa"; 
-
+import WhatsAppPopup from "./Whatsapp";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 const Home = () => {
   const mycard = [
     {
@@ -115,25 +119,86 @@ const Home = () => {
       img: "https://www.fahimshakir.com/img/Vue.webp",
     },
   ];
+  const respo = {
+    dots: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    autoplay: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+    ],
+  };
+  
+  const [isDesktop, setIsDesktop] = useState(window.innerWidth > 600);
 
+  useEffect(() => {
+    const handleResize = () => {
+      setIsDesktop(window.innerWidth > 600);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+   
   return (
     <>
-      <div>
-        <ImageSlid/>
-        <Card />
-        <div className="tech-main-box">
-          <h1 className="font">Use Technology</h1>
-          <p className="align-centr">
-            Crafting innovative web experiences with cutting-edge technology to
-            elevate digital presence and user engagement.
-          </p>
-          <div className="card-box">
-            {mycard.map((item) => {
-              return <Tech myItem={item} />;
-            })}
-          </div>
+     <div>
+      <ImageSlid />
+      <Card />
+      <div className="tech-main-box">
+        <h1 className="font">Use Technology</h1>
+        <p className="align-centr">
+          Crafting innovative web experiences with cutting-edge technology to
+          elevate digital presence and user engagement.
+        </p>
+        <div className="card-box">
+          {isDesktop ? (
+            // Render items as a list for desktop view
+            <div className="desktop-list card-box">
+              {mycard.map((item, index) => (
+                <Tech key={index} myItem={item} />
+              ))}
+            </div>
+          ) : (
+            // Render the carousel for mobile view
+            <Slider {...respo}>
+              {mycard.map((item, index) => (
+                <Tech key={index} myItem={item} />
+              ))}
+            </Slider>
+          )}
         </div>
       </div>
+    </div>
+ 
 
       <div className="background">
         <div className="container">
@@ -189,7 +254,7 @@ const Home = () => {
       <SimpleSlider />
       <Chooseus />
 
-      <a href="#" className="top-icon"><FaArrowUp /></a>
+      <a href="#" className="top-icon"><WhatsAppPopup/> </a>
     </>
   );
 };

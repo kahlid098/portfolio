@@ -47,7 +47,7 @@ const Card2 = () => {
           </div>
 
           <div className="d-flex">
-            <div className="first-box number">
+            <div className="first-box">
               <img src={architech} alt="" />
               <h2 className="heeed">3. Website Architecture</h2>
               <p className="define">
@@ -67,7 +67,7 @@ const Card2 = () => {
         </div>
   
       <div className="container">
-      <div className="d-flex">
+      <div className="d-flex  number">
         <div className="first-box1">
           <img src={develop} alt="" />
           <h2 className="heeed">5. Web Development</h2>

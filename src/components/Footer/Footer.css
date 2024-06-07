@@ -161,12 +161,12 @@
     width: 40px !important;
     display: block !important;
     height: 40px !important;
-    line-height: 40px !important;
+    line-height: 37px !important;
     background: white !important;
     color: black !important;
-  
-    box-shadow: 2px 2px 12px #6b6b6b45 !important;   
+    box-shadow: 2px 2px 12px #6b6b6b45 !important;
     opacity: 1 !important;
+    font-size: 22px !important;
 }
 .f-margin .slick-next {
     right: 10px !important;

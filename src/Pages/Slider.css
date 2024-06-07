@@ -179,7 +179,7 @@ iframe{
         margin-top: 10px;
         line-height: 2;
         padding: 0 13px;
-        font-size: 12px;
+        font-size: 10px;
     }
     .wi-box {
         width: 100%;
@@ -208,5 +208,13 @@ iframe{
         border: 1px solid #5247ff;
         margin: 0 0 10px 0px;
         color: #000;
+    }
+    .client {
+        text-align: center;
+        padding-top: 40px;
+    }
+    .mabt {
+        padding-bottom: 42px;
+        padding-top: 73px;
     }
 }
