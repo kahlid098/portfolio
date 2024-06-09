@@ -29,6 +29,7 @@ function App() {
       <Route path="/contact" element={<Contact/>}/>
     </Routes>
     <Footer/>
+    
     <WhatsAppPopup/>
     <OpenForm/>
     <a href='#' className='topcorner'><IoIosArrowUp /></a>

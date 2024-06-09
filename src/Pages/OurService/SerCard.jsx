@@ -1,10 +1,11 @@
 import React from 'react';
+import '../OurService/service.css'
 
 
 const SerCard = ({ imageSrc, paragraphText, HedingText }) => {
   return (
     <>
-    <div style={styles.card}>
+    <div className='ResCard'>
       <img src={imageSrc} alt="Card image" style={styles.image} />
       <div style={styles.Main}> 
       <h1 style={styles.HedingText}>{HedingText}</h1>
@@ -20,17 +21,6 @@ const styles = {
         color: '#333',
         lineHeight: '0', 
     },
-  card: {
-    borderRadius: '4px',
-    padding: '4px',
-    border :'1px solid #ddd',
-    marginBottom: '100px',
-    marginTop : '20px',
-    width: '33%',
-    textAlign: 'center',
-    boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)',
-    transition: 'all .2s ease-in-out',
-  },
   image: {
     width: '100%',
     height: 'auto',

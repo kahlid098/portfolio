@@ -110,6 +110,9 @@
     color: #fff;
     font-size: 14px;
 }
+.Copyright{
+    text-align: center;
+}
 .copy span{
     color: #ffb947;
 }
@@ -288,6 +291,10 @@
         color: #fff;
         font-size: 10px;
         padding: 10px 10px;
+    }
+    .Copyright{
+        text-align: center;
+        font-size: 10px;
     }
     .content4 {
         width: 83% !important;

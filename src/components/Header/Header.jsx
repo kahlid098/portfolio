@@ -93,9 +93,9 @@ const Header = () => {
                 <li><NavLink to="/Portfolio"> Our Portfolio</NavLink></li>
                 <li><NavLink to="/Blog"> Blog</NavLink></li>
                 <FaXmark  className="xmark" onClick={closenave}/>
+                <button className="contact-btn"><NavLink to="/contact">CONTACT US</NavLink></button>
               </ul>
             </div>
-            <button className="contact-btn"><NavLink to="/contact">CONTACT US</NavLink></button>
           </div>
       </div>
     </div>

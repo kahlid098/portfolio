@@ -119,8 +119,14 @@
     left: -2px;
     z-index: 999 !important;
 }
-
+.flexx{
+    display: flex;
+    justify-content: space-between;
+}
 @media only screen and (max-width: 600px){
+    .paragraph{
+        text-align: center;
+    }
     .lets::after {
         content: '';
         position: absolute;
@@ -181,5 +187,8 @@
      .container2{
         width: 85% !important;
         margin: 0 auto !important;
+    }
+    .flexx{
+        display: block;
     }
 }

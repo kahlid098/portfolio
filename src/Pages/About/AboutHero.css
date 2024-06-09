@@ -72,3 +72,38 @@
     line-height: 200%;
     margin: 0 0 10px;
 }
+
+@media only screen and (max-width: 600px){
+    .flax {
+        display: block;
+        justify-content: space-between;
+        gap: 20px;
+        align-items: center;
+    }
+    .about h1 {
+        font-size: 28px !important;
+        font-weight: 800 !important;
+        color: #fff !important;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .headaboy {
+        font-size: 15px !important;
+        font-weight: 800 !important;
+        color: #fff !important;
+        text-align: center;
+        margin-top: 13px;
+        margin-bottom: 10px;
+    }
+    
+    .image-div {
+        width: 100%;
+        padding: 6px;
+        position: relative;
+        min-height: 1px;
+    }
+    .pardiv {
+        width: 100%;
+    }
+}

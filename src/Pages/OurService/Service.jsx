@@ -12,6 +12,7 @@ const Service = () => {
       </div>
       <ServiceCard/>
       <SecondCard/>
+
     </>
   )
 }

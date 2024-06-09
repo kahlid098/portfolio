@@ -1,5 +1,6 @@
 import React from "react";
 import SerCard from "./SerCard";
+import '../OurService/service.css'
 
 const ServiceCard = () => {
   const cardsData = [
@@ -22,7 +23,7 @@ const ServiceCard = () => {
 
   return (
     <>
-    <div style={styles.container}>
+    <div className="container4512">
       {cardsData.map((card, index) => (
         <SerCard
           key={index}
@@ -36,13 +37,6 @@ const ServiceCard = () => {
   );
 };
 
-const styles = {
-  container: {
-    display: "flex",
-    width: "85%",
-    margin: "0 auto",
-    gap: "30px",
-  },
-};
+
 
 export default ServiceCard;

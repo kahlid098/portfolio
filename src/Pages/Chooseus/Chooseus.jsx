@@ -11,7 +11,7 @@ const Chooseus = () => {
 
         <div className="kind">
           <h1>Why Choose Us</h1>
-          <p>Expertise and innovation fuel our development, ensuring tailored solutions that exceed expectations</p>
+          <p className="innovation">Expertise and innovation fuel our development, ensuring tailored solutions that exceed expectations</p>
         </div>
      <div className="icon-box">
 
@@ -19,7 +19,7 @@ const Chooseus = () => {
         return (
           <div key={i} className="ch-box">
             <i class={item.icon}></i>
-            <p>{item.dis}</p>
+            <p className="Choose">{item.dis}</p>
           </div>
         );
       })}

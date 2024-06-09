@@ -230,3 +230,67 @@ ul.chooseus li {
 ul.chooseus li a {
   color: #000;
 }
+@media only screen and (max-width: 600px){
+  .tell img{
+    width: 100%;
+  }
+  .d-flax {
+    display: block;
+    justify-content: space-between;
+    gap: 30px;
+}
+.card123 {
+  width: 100%;
+  padding: 10px !important;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: all .2s ease-in-out;
+  border: 1px solid #666;
+  padding: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.left-side {
+  width:100%;
+}
+.right-side {
+  width: 100%;
+}
+ul.chooseus li {
+  background: #F5F5F5;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  font-size: 14px;
+}
+ul.no-bullet li {
+  padding: 5px 10px;
+  font-size: 14px;
+}
+.right-side h2 {
+  font-size: 19px;
+  color: #34495e;
+  padding: 0;
+  margin: 0;
+  line-height: 1.4;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.left-side input {  
+  margin: 10px 0;
+}
+.left-side textarea {
+  margin: 10px 0;
+}
+.contact {
+  font-size: 15px;
+  color: #34495e;
+  margin-top: 31px;
+  margin-bottom: 10px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+}
+}

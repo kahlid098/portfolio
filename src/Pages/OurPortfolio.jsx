@@ -4,27 +4,24 @@ import PortCard from './PortCard';
 
 const OurPortfolio = ({ imageSrc, paragraphText, buttonText }) => {
   return (
-    <div style={styles.card}>
+    <div className='maidcard'>
+      <div style={styles.imageCard}>
       <img src={imageSrc} alt="Card image" style={styles.image} />
+      </div>
       <p>{paragraphText}</p>
       <button style={styles.buttonText}>{buttonText}</button>
     </div>
   );
 };
 const styles = {
-  card: {
-    border: '1px solid #ccc',
-    borderRadius: '8px',
-    padding: '16px',
-    marginBottom: '100px',
-    marginTop : '20px',
-    width: '25%',
-    textAlign: 'center',
-    boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)',
-  },
   image: {
     width: '100%',
     height: 'auto',
+    backgroundSize:'cover',
+  },
+  imageCard:{
+    width: '100%',
+    height: '150px',
   },
   buttonText:{
     backgroundColor: '#4CAF50', // Green background

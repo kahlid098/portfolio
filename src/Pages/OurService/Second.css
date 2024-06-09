@@ -4,12 +4,15 @@
     border: 1px solid #f0f0f0;
     border-radius: 4px;
     position: relative; 
-    float: left;
     -moz-box-shadow: 0 0 2px rgba(0, 0, 0, .1);
     -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, .1);
     box-shadow: 0 0 2px rgba(0, 0, 0, .1);
     display: grid;
     width: 25%;
+}
+
+.card12 span{
+    margin: auto;
 }
 .card12 i{
     color: #ff8100 !important;
@@ -21,7 +24,6 @@
     vertical-align: middle; 
     border: 4px solid #f3f3f3;
     border-radius: 100%;
-    margin-left: 73px;
 }
 .card12 h1{
     font-weight: 400;
@@ -36,4 +38,22 @@
     text-align: center;
     font-size: 13px;
     margin-bottom: 10px;
+}
+.container-flaex {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    gap: 28px;
+  }
+@media only screen and (max-width: 600px) {
+    .card12{
+        width: 100%;
+        margin: 20px 0px;
+    }
+    .container-flaex {
+        display: block;
+        width: 85%;
+        margin: 0 auto;
+        gap: 28px;
+      }
 }

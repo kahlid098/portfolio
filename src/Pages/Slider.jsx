@@ -31,7 +31,7 @@ export default function SimpleSlider() {
         <Slider {...settings}>
           <div className="align-center">
             <img src={hershita} alt="" />
-            <p>
+            <p className="experience">
               
               Great experience working on my personal website development
               project with Fahim Shakir Web Developer. He was professional and
@@ -44,11 +44,11 @@ export default function SimpleSlider() {
           </div>
           <div className="align-center">
             <img src={imran} alt="" />
-            <p>Excellent Quality Highly recommends A+++ +, Fahim Shakir is a Superb web developer.</p>
+            <p className="experience">Excellent Quality Highly recommends A+++ +, Fahim Shakir is a Superb web developer.</p>
           </div>
           <div className="align-center">
             <img src={diwaker} alt="" />
-            <p>
+            <p className="experience">
             One of the best Magento developer I have met. He help me out from
               several typical problems. We have also worked together for several
               projects.

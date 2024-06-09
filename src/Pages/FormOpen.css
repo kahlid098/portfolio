@@ -72,3 +72,8 @@
     right: 13px;
     top: 0;
 }
+@media only screen and (max-width: 600px){
+    #openPopup1 {
+        display: none;
+    }
+}

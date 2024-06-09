@@ -1,5 +1,6 @@
 import React from 'react';
 import OurPortfolio from './OurPortfolio';
+import '../Pages/Port.css'
 
 
 const PortCard = () => {
@@ -10,24 +11,24 @@ const PortCard = () => {
       buttonText: 'Read More'
     },
     {
-      imageSrc: 'https://www.fahimshakir.com/admin/upload/1606045442agecoearth.png',
+      imageSrc: 'https://www.fahimshakir.com/admin/upload/1606045233itieekritee.png',
       paragraphText: 'Bath and Spa center',
       buttonText: 'Read More'
     },
     {
-      imageSrc: 'https://www.fahimshakir.com/admin/upload/1606045442agecoearth.png',
+      imageSrc: 'https://www.fahimshakir.com/admin/upload/1541789621careerstrategysolutions.png',
       paragraphText: 'Bath and Spa center',
       buttonText: 'Read More'
     },
     {
-      imageSrc: 'https://www.fahimshakir.com/admin/upload/1606045442agecoearth.png',
-      paragraphText: 'This is card 4',
+      imageSrc: 'https://www.fahimshakir.com/admin/upload/15382447045.jpg',
+      paragraphText: 'This is My Project',
       buttonText: 'Read More'
     }
   ];
 
   return (
-    <div style={styles.container}>
+    <div className='haxx'>
       {cardsData.map((card, index) => (
         <OurPortfolio
           key={index}
@@ -40,13 +41,7 @@ const PortCard = () => {
   );
 };
 
-const styles = {
-  container: {
-    display: 'flex',
-    width : '90%',
-    margin : '0 auto',
-    gap: "14px",
-  },
-};
+
+
 
 export default PortCard;

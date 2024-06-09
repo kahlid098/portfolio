@@ -212,7 +212,7 @@ const Home = () => {
               </p>
             </div>
 
-            <div className="d-flex marrr">
+            <div className="flexx marrr">
               <div className="screen b-right">
                 <img src={screan} alt="" className="immggg" />
                 <div>

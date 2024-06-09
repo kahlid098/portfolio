@@ -49,13 +49,14 @@
 .align-center img{
     margin: auto;
 }
-.align-center p{
+.align-center .experience{
     color: #fff;
     font-family: system-ui;
     margin-top: 10px;
     line-height: 2;
     padding: 0 13px;
-    font-size: 15px;    
+    font-size: 15px; 
+    text-align: center;   
 }
 .box-no{
     width: 23%;
@@ -237,5 +238,24 @@ iframe{
         width: 85% !important;
         margin: 0 auto !important;
         display: block !important;
+    }
+    .our-portfolio {
+        line-height: 65px;
+        font-size: 26px;
+        font-weight: 600;
+        letter-spacing: -.05em;
+        text-align: center;
+        position: relative;
+        color: #ccc;
+        margin: 50px 0px;
+    }
+    .align-center .experience{
+        color: #fff;
+        font-family: system-ui;
+        margin-top: 10px;
+        line-height: 2;
+        padding: 0 13px;
+        font-size: 15px; 
+        text-align: center;   
     }
 }

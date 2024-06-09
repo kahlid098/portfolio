@@ -32,7 +32,7 @@ const SecondCard = () => {
 
   return (
     <>
-    <div style={styles.container}>
+    <div className="container-flaex">
       {Newdata.map((card, index) => (
         <SeconCard
           key={index}
@@ -47,13 +47,6 @@ const SecondCard = () => {
   );
 };
 
-const styles = {
-  container: {
-    display: "flex",
-    width: "85%",
-    margin: "0 auto",
-    gap: '28px'
-  },
-};
+
 
 export default SecondCard;
