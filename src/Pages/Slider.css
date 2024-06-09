@@ -169,6 +169,16 @@ iframe{
 .uniqe,.slick-next {
     right: 0px !important;
 }
+.our-portfolio{
+    line-height: 65px;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: -.05em;
+    text-align: center;
+    position: relative;
+    color: #ccc;
+    margin: 50px 0px;
+}
 @media only screen and (max-width: 600px){
     .box-no {
         width: 100%;

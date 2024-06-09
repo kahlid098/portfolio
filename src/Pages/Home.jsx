@@ -14,6 +14,7 @@ import WhatsAppPopup from "./Whatsapp";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import FormOpen from './FormOpen';
 const Home = () => {
   const mycard = [
     {
@@ -250,10 +251,26 @@ const Home = () => {
       </div>
 
       <Card2 />
+   
       <SimpleSlider />
       <Chooseus />
+      <div className="container">
+        <div className="d-flex">
+            <div className="wi-box box-mar">
+                <span>1000+</span>
+                <h1 className="john">Completed <br></br> Projects</h1>
+            </div>
+            <div className="wi-box box-mar">
+                <span>Best Offer</span>
+                <h1 className="john">Delivered On Time</h1>
+            </div>
+            <div className="wi-box box-mar">
+                <span>Best Web Maker</span>
+                <h1 className="john">100% Qc faster<br></br> production</h1>
+            </div>
+        </div>
+      </div>
 
-      <a href="#" className="top-icon"><WhatsAppPopup/> </a>
     </>
   );
 };

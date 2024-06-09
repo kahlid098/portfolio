@@ -5,6 +5,7 @@ import diwaker from "../components/image/diwakr.png";
 import imran from "../components/image/imran.png";
 import hershita from "../components/image/harshita.png";
 import YoutubeSlider from "./YoutubeSlider";
+import PortCard from "./PortCard";
 
 export default function SimpleSlider() {
   var settings = {
@@ -17,6 +18,10 @@ export default function SimpleSlider() {
   };
   return (
     <>
+      <div className="our-portfolio">
+        <h1 >Our Portfolio</h1>
+      </div>
+    <PortCard/>
       <div className="back-image">
         <div className="client">
           <h2>What our clients have to say</h2>
@@ -51,25 +56,11 @@ export default function SimpleSlider() {
           </div>
         </Slider>
         </div>
+        
        <YoutubeSlider/>
       </div>
-
-      <div className="container">
-        <div className="d-flex">
-            <div className="wi-box box-mar">
-                <span>1000+</span>
-                <h1 className="john">Completed <br></br> Projects</h1>
-            </div>
-            <div className="wi-box box-mar">
-                <span>Best Offer</span>
-                <h1 className="john">Delivered On Time</h1>
-            </div>
-            <div className="wi-box box-mar">
-                <span>Best Web Maker</span>
-                <h1 className="john">100% Qc faster<br></br> production</h1>
-            </div>
-        </div>
-      </div>
+    
+     
     </>
   );
 }

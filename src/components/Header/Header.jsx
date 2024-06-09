@@ -87,15 +87,15 @@ const Header = () => {
             <div>
               <ul className={ isActive ? "ul navactive" : "ul"}>
                 <li><NavLink to="/">Home</NavLink></li>
-                <li><NavLink to="/About" target="_blank">About Us</NavLink> </li>
-                <li><NavLink to="/Resume" target="_blank">Resume</NavLink> </li>
-                <li><NavLink to="/Sevice" target="_blank"> Our Sevices</NavLink></li>
-                <li><NavLink to="/Portfolio" target="_blank"> Our Portfolio</NavLink></li>
-                <li><NavLink to="/Blog" target="_blank"> Blog</NavLink></li>
+                <li><NavLink to="/About">About Us</NavLink> </li>
+                <li><NavLink to="/Resume">Resume</NavLink> </li>
+                <li><NavLink to="/Service"> Our Sevices</NavLink></li>
+                <li><NavLink to="/Portfolio"> Our Portfolio</NavLink></li>
+                <li><NavLink to="/Blog"> Blog</NavLink></li>
                 <FaXmark  className="xmark" onClick={closenave}/>
               </ul>
             </div>
-            <button className="contact-btn">CONTACT US</button>
+            <button className="contact-btn"><NavLink to="/contact">CONTACT US</NavLink></button>
           </div>
       </div>
     </div>

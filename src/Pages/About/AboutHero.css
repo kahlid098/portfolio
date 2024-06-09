@@ -1,0 +1,74 @@
+.about{
+    height: 280px;
+    background: url(../../components/image/shared_bg.jpg) top center fixed;
+    margin-bottom: 30px;
+    margin-top: -1px;
+    text-align: center;
+    padding-top: 36px;
+}
+.containerr{
+    width: 85%;
+    margin: 0 auto;
+}
+.about h1{
+    font-size: 33px !important;
+    font-weight: 800 !important;
+    color: #fff !important;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.about h3{
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+}
+.headaboy{
+    font-size: 33px !important;
+    font-weight: 800 !important;
+    color: #fff !important;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.flax{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+.image-div{
+    width: 25%;
+    padding: 6px;
+    position: relative;
+    min-height: 1px;
+    padding: 15px 15px 15px 0;
+}
+.image-div img{
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    padding: 4px;
+    line-height: 1.42857143;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: all .2s ease-in-out;
+}
+.pardiv{
+    width: 75%;
+}
+.paradiv,p{
+    font-family: Poppins, Sans-serif;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 200%;
+    margin: 0 0 10px;
+}
+.second-div,p{
+    font-family: Poppins, Sans-serif;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 200%;
+    margin: 0 0 10px;
+}

@@ -1,0 +1,16 @@
+.service-image{
+    height: 188px;
+    background: url(../../components/image/shared_bg.jpg) top center fixed;
+    margin-bottom: 30px;
+    margin-top: -1px;
+    text-align: center;
+    padding-top: 36px;
+}
+.service-image h1{
+    font-size: 33px !important;
+    font-weight: 800 !important;
+    color: #fff !important;
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 10px;
+}

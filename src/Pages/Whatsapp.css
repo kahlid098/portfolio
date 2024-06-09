@@ -4,7 +4,7 @@
 #openPopup {
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    left: 20px;
     background-color: #25D366;
     color: white;
     border: none;
@@ -39,10 +39,10 @@
     max-width: 324px;
     border-radius: 10px;
     position: absolute;
-    right: 26px;
+    left: 22px;
     top: 263px;
 }
-.popup-content::after{
+/* .popup-content::before{
     content: '';
     position: absolute;
     top: 100%;
@@ -51,8 +51,8 @@
     height: 0;
     border-radius: 2px;
     transform: rotate(270deg);
-}
-.popup-content::before{
+} */
+/* .popup-content::before{
     content: '';
     position: absolute;
     top: 100%;
@@ -64,7 +64,7 @@
     border-style: solid;
     transform: rotate(270deg);
     z-index: 1;
-}
+} */
 .close-btn {
     color: #aaa;
     float: right;

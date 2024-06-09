@@ -19,3 +19,16 @@ body{
     overflow-x: hidden;
 }
 }
+.topcorner{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  background-color: blueviolet;
+  border-radius: 10px;
+  display: block;
+}

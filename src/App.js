@@ -3,12 +3,16 @@ import './App.css';
 import Header from './components/Header/Header';
 import {  Routes, Route } from "react-router-dom";
 import Home from './Pages/Home'
-import About from './Pages/About';
+import About from './Pages/About/About';
 import Resume from './Pages/Resume';
-import Service from './Pages/Service'
+import Service from './Pages/OurService/Service'
 import Portfolio from './Pages/Portfolio'
 import Blog from './Pages/Blog'
 import Footer from './components/Footer/Footer';
+import WhatsAppPopup from './Pages/Whatsapp';
+import Contact from './Pages/Contact/Contact';
+import OpenForm from './Pages/FormOpen';
+import { IoIosArrowUp } from "react-icons/io";
 
 
 function App() {
@@ -20,11 +24,14 @@ function App() {
       <Route path="/About" element={<About/> }/>
       <Route path="/Resume" element={<Resume/>}/>
       <Route path="/Service" element={<Service/> }/>
-      <Route path="/Porfolio" element={<Portfolio/> }/>
+      <Route path="/Portfolio" element={<Portfolio/> }/>
       <Route path="/Blog" element={<Blog/> }/>
+      <Route path="/contact" element={<Contact/>}/>
     </Routes>
-
     <Footer/>
+    <WhatsAppPopup/>
+    <OpenForm/>
+    <a href='#' className='topcorner'><IoIosArrowUp /></a>
     </>
   );
 }
