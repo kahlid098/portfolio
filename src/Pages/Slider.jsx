@@ -19,48 +19,55 @@ export default function SimpleSlider() {
   return (
     <>
       <div className="our-portfolio">
-        <h1 >Our Portfolio</h1>
+        <h4 class="elementor-heading">We Love Our Works</h4>
+        <p className="projects">
+          2000+ awesome projects delivered in 50+ nations earned us the respect
+          we proudly cherish today. We love what we do and that makes our work
+          as diverse as you possibly expect from the best web design &
+          development company.
+        </p>
+        <div><a href="#" className="viewhere">View All Here</a></div>
       </div>
-    <PortCard/>
+      <PortCard />
       <div className="back-image">
         <div className="client">
           <h2>What our clients have to say</h2>
           <span>Happy Customer</span>
         </div>
-<div className="container margin uniqe">
-        <Slider {...settings}>
-          <div className="align-center">
-            <img src={hershita} alt="" />
-            <p className="experience">
-              
-              Great experience working on my personal website development
-              project with Fahim Shakir Web Developer. He was professional and
-              creative. Their dedicated approach to the work is commendable. I
-              got user-friendly and incredible looking website within the
-              stipulated time outstanding Ecommerce Website Designing and
-              development. Thanks for giving my brand and my business great web
-              presence and an added online edge.
-            </p>
-          </div>
-          <div className="align-center">
-            <img src={imran} alt="" />
-            <p className="experience">Excellent Quality Highly recommends A+++ +, Fahim Shakir is a Superb web developer.</p>
-          </div>
-          <div className="align-center">
-            <img src={diwaker} alt="" />
-            <p className="experience">
-            One of the best Magento developer I have met. He help me out from
-              several typical problems. We have also worked together for several
-              projects.
-            </p>
-          </div>
-        </Slider>
+        <div className="container margin uniqe">
+          <Slider {...settings}>
+            <div className="align-center">
+              <img src={hershita} alt="" />
+              <p className="experience">
+                Great experience working on my personal website development
+                project with Fahim Shakir Web Developer. He was professional and
+                creative. Their dedicated approach to the work is commendable. I
+                got user-friendly and incredible looking website within the
+                stipulated time outstanding Ecommerce Website Designing and
+                development. Thanks for giving my brand and my business great
+                web presence and an added online edge.
+              </p>
+            </div>
+            <div className="align-center">
+              <img src={imran} alt="" />
+              <p className="experience">
+                Excellent Quality Highly recommends A+++ +, Fahim Shakir is a
+                Superb web developer.
+              </p>
+            </div>
+            <div className="align-center">
+              <img src={diwaker} alt="" />
+              <p className="experience">
+                One of the best Magento developer I have met. He help me out
+                from several typical problems. We have also worked together for
+                several projects.
+              </p>
+            </div>
+          </Slider>
         </div>
-        
-       <YoutubeSlider/>
+
+        <YoutubeSlider />
       </div>
-    
-     
     </>
   );
 }

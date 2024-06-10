@@ -6,24 +6,20 @@ import '../Pages/Port.css'
 const PortCard = () => {
   const cardsData = [
     {
-      imageSrc: 'https://www.fahimshakir.com/admin/upload/1606045442agecoearth.png',
-      paragraphText: 'Bath and Spa center',
-      buttonText: 'Read More'
+      imageSrc: 'https://techkritigroup.com/wp-content/uploads/2024/01/House-of-Computers.png.webp',
+      paragraphText: 'House of Computers',
     },
     {
-      imageSrc: 'https://www.fahimshakir.com/admin/upload/1606045233itieekritee.png',
-      paragraphText: 'Bath and Spa center',
-      buttonText: 'Read More'
+      imageSrc: 'https://techkritigroup.com/wp-content/uploads/2024/01/IFL-ME.jpg',
+      paragraphText: 'IFL ME',
     },
     {
-      imageSrc: 'https://www.fahimshakir.com/admin/upload/1541789621careerstrategysolutions.png',
-      paragraphText: 'Bath and Spa center',
-      buttonText: 'Read More'
+      imageSrc: 'https://techkritigroup.com/wp-content/uploads/2024/01/Water-To-Go.png.webp',
+      paragraphText: 'Water To Go',
     },
     {
-      imageSrc: 'https://www.fahimshakir.com/admin/upload/15382447045.jpg',
-      paragraphText: 'This is My Project',
-      buttonText: 'Read More'
+      imageSrc: 'https://techkritigroup.com/wp-content/uploads/2024/01/Caskers.png.webp',
+      paragraphText: 'This is My ProjectCaskers',
     }
   ];
 
@@ -34,7 +30,6 @@ const PortCard = () => {
           key={index}
           imageSrc={card.imageSrc}
           paragraphText={card.paragraphText}
-          buttonText={card.buttonText}
         />
       ))}
     </div>

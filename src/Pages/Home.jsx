@@ -10,11 +10,9 @@ import Card2 from "../components/Card2";
 import SimpleSlider from "./Slider";
 import Chooseus from "./Chooseus/Chooseus";
 import ImageSlid from "./ImageSlide";
-import WhatsAppPopup from "./Whatsapp";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import FormOpen from './FormOpen';
 const Home = () => {
   const mycard = [
     {
