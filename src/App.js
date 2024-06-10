@@ -6,7 +6,7 @@ import Home from './Pages/Home'
 import About from './Pages/About/About';
 import Resume from './Pages/Resume/Resume';
 import Service from './Pages/OurService/Service'
-import Portfolio from './Pages/Portfolio'
+import Portfolio from './Pages/Ourportfolio/Portfolio'
 import Blog from './Pages/Blog'
 import Footer from './components/Footer/Footer';
 import WhatsAppPopup from './Pages/Whatsapp';

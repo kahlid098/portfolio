@@ -5,7 +5,7 @@ import diwaker from "../components/image/diwakr.png";
 import imran from "../components/image/imran.png";
 import hershita from "../components/image/harshita.png";
 import YoutubeSlider from "./YoutubeSlider";
-import PortCard from "./PortCard";
+import PortCard from "./Ourportfolio/PortCard";
 
 export default function SimpleSlider() {
   var settings = {

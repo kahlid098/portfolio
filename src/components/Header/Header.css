@@ -220,9 +220,10 @@
   .bar {
     position: absolute;
     right: 25px;
-    top: 41px;
+    top: 31px;
     color: #fff;
     display: block;
+    font-size: 25px;
   }
   .xmark {
     position: absolute;

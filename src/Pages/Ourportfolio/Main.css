@@ -1,0 +1,32 @@
+.main-port {
+    padding: 50px 94px 70px 94px;
+  background: url(../../components/image/shared_bg.jpg) top center fixed;
+  margin-bottom: 30px;
+  margin-top: -1px;
+}
+.head-port {
+  font-size: 33px !important;
+  font-weight: 800 !important;
+  color: #fff !important;
+  text-align: center;
+}
+.head2port {
+  font-size: 16px;
+  font-weight: 800;
+  color: #fff;
+  text-align: center;
+  margin: 10px 0;
+}
+.inno-head2 {
+    font-size: 33px !important;
+    font-weight: 800 !important;
+    color: #fff !important;
+    text-align: center;
+}
+.discipline{
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+    line-height: 1.7;
+}

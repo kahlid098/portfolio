@@ -1,5 +1,4 @@
 import React from "react";
-import PortCard from "./PortCard";
 
 const OurPortfolio = ({ imageSrc, paragraphText }) => {
   return (

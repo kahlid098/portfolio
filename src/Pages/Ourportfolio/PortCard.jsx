@@ -1,6 +1,6 @@
 import React from 'react';
 import OurPortfolio from './OurPortfolio';
-import '../Pages/Port.css'
+import '../Ourportfolio/Port.css'
 
 
 const PortCard = () => {
