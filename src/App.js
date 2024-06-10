@@ -4,7 +4,7 @@ import Header from './components/Header/Header';
 import {  Routes, Route } from "react-router-dom";
 import Home from './Pages/Home'
 import About from './Pages/About/About';
-import Resume from './Pages/Resume';
+import Resume from './Pages/Resume/Resume';
 import Service from './Pages/OurService/Service'
 import Portfolio from './Pages/Portfolio'
 import Blog from './Pages/Blog'
