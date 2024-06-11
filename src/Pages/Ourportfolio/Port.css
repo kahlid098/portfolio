@@ -1,4 +1,4 @@
-.haxx123{
+.haxx{
     display: flex;
     width : 90%;
     margin : 0 auto;
@@ -96,19 +96,42 @@
 }
 @media only screen and (max-width: 600px){
     .haxx{
-        display: block;
+        display: block !important;
         width : 90%;
         margin : 0 auto;
         gap: 14px;
     }
     .maidcard{
         border: 1px solid #ccc;
-        border-radius: 8px;
-        padding: 16px;
-        margin-bottom: 50px;
+        margin-bottom: 80px;
         margin-top : 20px;
         width: 100%;
         text-align: center;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    .our-portfolio {
+        text-align: center;
+        padding: 0px 17px;
+        margin: 20px 0px;
+    }
+    .elementor-heading {
+        color: #2E2D2D;
+        font-family: "Poppins", Sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        text-transform: uppercase;
+        line-height: 41px;
+        letter-spacing: -2px;
+        margin: 13px 0;
+    }
+    .projects {
+        text-align: center;
+        color: #000000;
+        font-family: "Poppins", Sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        font-family: po;
+        font-family: Poppins, Sans-serif;
     }
 }

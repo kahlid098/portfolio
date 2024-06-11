@@ -6,6 +6,7 @@ import imran from "../components/image/imran.png";
 import hershita from "../components/image/harshita.png";
 import YoutubeSlider from "./YoutubeSlider";
 import PortCard from "./Ourportfolio/PortCard";
+import { NavLink } from "react-router-dom";
 
 export default function SimpleSlider() {
   var settings = {
@@ -26,7 +27,7 @@ export default function SimpleSlider() {
           as diverse as you possibly expect from the best web design &
           development company.
         </p>
-        <div><a href="#" className="viewhere">View All Here</a></div>
+        <div><NavLink to="/Portfolio" className="viewhere">View All Project</NavLink></div>
       </div>
       <PortCard />
       <div className="back-image">

@@ -30,3 +30,117 @@
     text-align: center;
     line-height: 1.7;
 }
+.containert{
+  width: 85%;
+  margin: 0 auto;
+}
+.react-tabs__tab{
+  position: relative;
+  background-color: #FFF;
+  border: 2px solid #ECECEC;
+  border-radius: 2px;
+  color: #888;
+  cursor: pointer;
+  font: 600 14px / 29px "Open Sans", sans-serif;
+  margin: 10px 10px 0 0;
+  overflow: visible;
+  padding: 0 17px;
+  position: relative;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+.react-tabs__tab:hover .cbp-filter-counter{
+  background-color: #3288C4;
+  border-radius: 3px;
+  color: #fff;
+  font: 400 11px / 18px "Open Sans", sans-serif;
+  margin: 0 auto;
+  padding: 4px 0;
+  text-align: center;
+  width: 34px;
+  display: block;
+  position: absolute;
+  top: -35px;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  visibility: visible;
+}
+.react-tabs__tab-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #ddd;
+}
+.cbp-filter-counter{
+  background-color: #3288C4;
+  border-radius: 3px;
+  color: #fff;
+  font: 400 11px / 18px "Open Sans", sans-serif;
+  margin: 0 auto;
+  padding: 4px 0;
+  text-align: center;
+  width: 34px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.containert .react-tabs__tab--selected{
+  background-color: #5d5d5d;
+  color: #fff !important;
+  border-color: #5d5d5d;
+}
+@media only screen and (max-width: 600px){
+  .main-port {
+    padding: 40px 10px 40px 10px;
+    margin-bottom: 30px;
+    margin-top: -1px;
+}
+.discipline {
+  font-size: 11px;
+  font-weight: 800;
+  color: #fff;
+  text-align: center;
+  line-height: 1.7;
+}
+.inno-head2 {
+  font-size: 24px !important;
+  font-weight: 800 !important;
+  color: #fff !important;
+  text-align: center;
+  margin-bottom: 4px;
+}
+.head2port {
+  font-size: 13px;
+  font-weight: 800;
+  color: #fff;
+  text-align: center;
+  margin: 5px 0;
+}
+.containert .react-tabs__tab-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #ddd;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.hoxx {
+  display: block !important;
+  gap: 25px;
+  justify-content: space-between;
+}
+.over{
+  width: 100% !important;
+}
+}
+

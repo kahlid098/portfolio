@@ -109,7 +109,7 @@ const Header = () => {
 
             <div className="sociel-icon">
               <a
-                href="https://github.com"
+                href="mailto:fahimshakir786@gmail.com"
                 className="icon-link"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -121,7 +121,7 @@ const Header = () => {
               </a>
 
               <a
-                href="https://github.com"
+                href="skype:fahim.shakir40"
                 className="icon-link"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -130,9 +130,8 @@ const Header = () => {
                   <FaSkype className="information" /> fahim.shakir40
                 </span>
               </a>
-
               <a
-                href="https://github.com"
+                href="tel:09718925775"
                 className="icon-link"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -143,7 +142,7 @@ const Header = () => {
               </a>
 
               <a
-                href="https://github.com"
+                href="https://api.whatsapp.com/send/?phone=919268751849&text&type=phone_number&app_absent=0"
                 className="icon-link"
                 target="_blank"
                 rel="noopener noreferrer"

@@ -25,7 +25,7 @@ const WhatsAppPopup = () => {
             <span className="close-btn" onClick={togglePopup}>&times;</span>
             <h2 className='message'><FaRegMessage className='icon-mesag'/></h2>
             <p>I checked the website, and I have a few questions to ask</p>
-            <a href="https://wa.me/1234567890" target="_blank" className="whatsapp-btn" rel="noopener noreferrer"><FaWhatsapp  className='icon-what'/> Chat With Us</a>
+            <a href="https://api.whatsapp.com/send/?phone=919268751849&text=ws&type=phone_number&app_absent=0" target="_blank" className="whatsapp-btn" rel="noopener noreferrer"><FaWhatsapp  className='icon-what'/> Chat With Us</a>
           </div>
         </div>
         </>

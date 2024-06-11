@@ -1,0 +1,66 @@
+.All img {
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+.All {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+  text-align: center;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+.over{
+    width: 23%;
+}
+.orinfo {
+  background-color: #3288c4;
+  color: #fff;
+  display: inline-block;
+  font: 12px / 28px sans-serif;
+  text-decoration: none;
+  width: 90px;
+  text-align: center;
+  margin: 4px;
+}
+.maininfo {
+  background: #282727;
+  position: absolute;
+  bottom: -48px;
+  width: 100%;
+  padding: 4px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+.All:hover .maininfo {
+  background: #282727;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 4px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  opacity: 1;
+  visibility: visible;
+}
+.newhouse {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 12px;
+    font: 700 14px sans-serif;
+    color: #474747;
+}
+.hoxx{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    flex-wrap: wrap;
+    
+}

@@ -15,6 +15,7 @@
     width: 42px;
     height: 42px;
     line-height: 40px;
+    z-index: 9999;
 }
 
 .popup {
@@ -42,29 +43,7 @@
     left: 22px;
     top: 263px;
 }
-/* .popup-content::before{
-    content: '';
-    position: absolute;
-    top: 100%;
-    right: 27px;
-    width: 0;
-    height: 0;
-    border-radius: 2px;
-    transform: rotate(270deg);
-} */
-/* .popup-content::before{
-    content: '';
-    position: absolute;
-    top: 100%;
-    right: 29px;
-    width: 0;
-    height: 0;
-    border-width: 0 0px 30px 30px;
-    border-color: transparent transparent white transparent;
-    border-style: solid;
-    transform: rotate(270deg);
-    z-index: 1;
-} */
+
 .close-btn {
     color: #aaa;
     float: right;

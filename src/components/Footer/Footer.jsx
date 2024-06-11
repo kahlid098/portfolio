@@ -37,23 +37,23 @@ const Footer = () => {
                             </li>
                             <li>
                                 <span><IoMdCall /> </span>
-                                <span><a href='#' className='sp'>09718925775</a></span>
+                                <span><a href='tel:09718925775' className='sp'>09718925775</a></span>
                             </li>
                             <li>
                                 <span><FaWhatsapp /></span>
-                                <span><a href='#' className='sp'> 09268751849</a></span>
+                                <span><a href='https://api.whatsapp.com/send/?phone=919268751849&text&type=phone_number&app_absent=0' className='sp'> 09268751849</a></span>
                             </li>
                             <li>
                                 <span><CiMail /></span>
-                                <span><a href='#' className='sp'>fahimshakir786@gmail.com</a></span>
+                                <span><a href='mailto:fahimshakir786@gmail.com' className='sp'>fahimshakir786@gmail.com</a></span>
                             </li>
                             <li>
                                 <span><CiMail /></span>
-                                <span><a href='#' className='sp'> info@fahimshakir.com</a></span> 
+                                <span><a href='mailto:fahimshakir786@gmail.com' className='sp'> info@fahimshakir.com</a></span> 
                             </li>
                             <li>
                                 <span><FaSkype /></span>
-                                <span><a href='#' className='sp'> fahim.shakir40</a></span>
+                                <span><a href='skype:fahim.shakir40' className='sp'> fahim.shakir40</a></span>
                             </li>
                         </ul>
                     </div>
