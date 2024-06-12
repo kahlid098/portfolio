@@ -65,7 +65,7 @@
 }
 .fg-item-icon-inner{
     background: #fff;
-    color: #E45C16;
+    color: #252734;
     height: 50px;
     line-height: 50px;
     width: 50px;
@@ -75,11 +75,11 @@
     display: block;
 }
 .fg-item-icon-inner:hover{
-    background: #E45C16;
+    background: #252734;
     color: #fff;
 }
 .trans-color{
-    background-color: #E45C1691;
+    background-color: #252734ad;
     position: absolute;
     top: 0;
     width: 100%;
@@ -92,7 +92,7 @@
     transition: all 1s;
 }
 .house:hover{
-    color: #E45C16;
+    color: #252734ad;
 }
 @media only screen and (max-width: 600px){
     .haxx{
@@ -125,13 +125,11 @@
         margin: 13px 0;
     }
     .projects {
-        text-align: center;
-        color: #000000;
-        font-family: "Poppins", Sans-serif;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 21px;
-        font-family: po;
         font-family: Poppins, Sans-serif;
+        text-align: justify;
+        font-size: 15px;
+        line-height: 153%;
+        margin: 0 0 10px;
+        color: #636363;
     }
 }

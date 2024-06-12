@@ -142,11 +142,14 @@
     background-color: #fafafa;
     padding: 20px;
     flex: 0 0 auto;
+    height: auto;
 }
 .typ{
-    height: 113px;
+    height: 116px;
     overflow-y: scroll;
     font-size: 14px;
+    padding: 10px;
+    text-align: left;
 }
 
 .f-margin .slick-prev:before {

@@ -180,24 +180,26 @@ iframe{
     letter-spacing: -2px;
 }
 .projects{
+    font-size: 15px;
+    color: #000;
+    line-height: 1.5em;
     text-align: center;
-    color: #000000;
+    margin-bottom: 14px;
+    padding: 7px 46px;
     font-family: "Poppins", Sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
 }
 .viewhere{
     font-family: "Poppins", Sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     fill: #E45C16;
-    color: #E45C16;
+    color: #252734;
     background-color: #FFFFFF00;
-    padding: 0px 0px 0px 0px;
+    padding: 10px 8px;
+    border: 1px solid #252734;
 }
 .viewhere:hover{
-    color: #F57635;
+    color: #130d0b;
 }
 .our-portfolio{
     text-align: center;

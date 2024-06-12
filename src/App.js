@@ -13,6 +13,8 @@ import WhatsAppPopup from './Pages/Whatsapp';
 import Contact from './Pages/Contact/Contact';
 import OpenForm from './Pages/FormOpen';
 import { IoIosArrowUp } from "react-icons/io";
+import Term from './Pages/Term-and-condition';
+import Privacy from './Pages/Privacy';
 
 
 function App() {
@@ -21,18 +23,21 @@ function App() {
     <Header/>
     <Routes>
       <Route path="/" element={<Home/> }/>
-      <Route path="/About" element={<About/> }/>
+      <Route path="/About-us" element={<About/> }/>
       <Route path="/Resume" element={<Resume/>}/>
       <Route path="/Service" element={<Service/> }/>
       <Route path="/Portfolio" element={<Portfolio/> }/>
       <Route path="/Blog" element={<Blog/> }/>
       <Route path="/contact" element={<Contact/>}/>
+      <Route path='/Term-and-condition' element={<Term/>}/>
+      <Route path='privacy-policy' element={<Privacy/> }/>
     </Routes>
     <Footer/>
     
     <WhatsAppPopup/>
     <OpenForm/>
     <a href='#' className='topcorner'><IoIosArrowUp /></a>
+
     </>
   );
 }

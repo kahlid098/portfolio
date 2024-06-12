@@ -90,8 +90,8 @@ const ImageSlider = ({ slides, autoPlay = true, autoPlayTime = 3000 }) => {
   };
 
   return (
-    <div style={sliderStyles}>
-      <div>
+    <div style={sliderStyles} >
+      <div className="none">
         <div onClick={goToPrevious} style={leftArrowStyles}>
           ❰
         </div>

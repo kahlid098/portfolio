@@ -8,7 +8,7 @@ import { FaSkype } from "react-icons/fa6";
 
 import TestimonialCarousel from '../../Pages/testimonial';
 import FacebookPageEmbed from '../../Pages/Facebook';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -21,12 +21,12 @@ const Footer = () => {
             <div className="FooterMain ">
                 <div className='container flex-boxes '>
                     <div className="content1">
-                        <h2 className='cochead'>About Us</h2>
+                        <h5 className='cochead'>About Us</h5>
                         <p>My name is Fahim Shakir. In the discipline of Web Development and Design I am full stack prominent as PHP Programmer / Web Developer / Web Freelancer. I am reputated by my outstanding work, excellent programming skills and versatile nature of program coding with Software and Website Development.
-                            I am full stack developed many web based applications. I am persistent in developing the web application as well as dynamic websites <NavLink to="/about" className='reed'>Readmore</NavLink></p>
+                            I am full stack developed many web based applications. I am persistent in developing the web application as well as dynamic websites <NavLink to="/about-us" className='reed'>Readmore</NavLink></p>
                     </div>
                     <div className="content3">
-                        <h2 className='cochead'>Contect Us</h2>
+                        <h5 className='cochead'>Contect Us</h5>
                         <ul className='list-section'>
                             <li>
                                 <span><FaLocationDot /></span>
@@ -59,7 +59,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="content6">
-                        <h2 className='cochead'>Usefull Links</h2>
+                        <h5 className='cochead'>Usefull Links</h5>
                         <ul className='list-section'>
                             <li><span><a href="#">ABOUT US</a></span></li>
                             <li><span><a href="#">My RESUME</a></span></li>
@@ -67,8 +67,8 @@ const Footer = () => {
                             <li><span><a href="#">OUR PORTFOLIO</a></span></li>
                             <li><span><a href="#">BLOG</a></span></li>
                             <li><span><a href="#">CONTACT US</a></span></li>
-                            <li><span><a href="#">Privacy Policy</a></span></li>
-                            <li><span><a href="#">Terms & Conditions</a></span></li>
+                            <li><span><Link to="privacy-policy">Privacy Policy</Link></span></li>
+                            <li><span><Link to="/Term-and-condition">Terms & Conditions</Link></span></li>
                         </ul>
                     </div>
                     <div className="content4">

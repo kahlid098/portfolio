@@ -12,7 +12,7 @@ import { FaSkype } from "react-icons/fa";
 import { IoIosCall } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
 import logo from "../image/fs-logo.png";
-import { NavLink } from "react-router-dom";
+import { NavLink,Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa6";
 import { FaXmark } from "react-icons/fa6";
 
@@ -159,7 +159,7 @@ const Header = () => {
       <div className="bg-color">
         <div className={`container4 ${navbarClass}`}>
           <div className="d-flex">
-            <img src={logo} alt="Logo" className="image" />
+           <Link to="/"> <img src={logo} alt="Logo" className="image" /></Link>
             <FaBars className="bar" onClick={handleClick} />
             <div>
               <ul className={isActive ? "ul navactive" : "ul"}>
@@ -167,7 +167,7 @@ const Header = () => {
                   <NavLink to="/">Home</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/About">About Us</NavLink>
+                  <NavLink to="/About-us">About Us</NavLink>
                 </li>
                 <li>
                   <NavLink to="/Resume">Resume</NavLink>
