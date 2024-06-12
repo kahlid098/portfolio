@@ -24,9 +24,9 @@ const ResumeHero = () => {
             <div className="followus">
                 <span class="find-us-title">find with me</span>
                 <ul className="social-share">
-                <li className="facebook"><a href="#"><TiSocialFacebook /></a></li>
-                <li className="twiter"><a href="#"><FaXTwitter /></a></li>
-                <li className="linkedin"><a href="#"><FaLinkedinIn /></a></li>
+                <li className="facebook"><a href="https://www.facebook.com/FahimShakirWebsiteDeveloper/" target="_blamk"><TiSocialFacebook /></a></li>
+                <li className="twiter"><a href="https://x.com/fahimshakir786" target="_blank"><FaXTwitter /></a></li>
+                <li className="linkedin"><a href="https://www.linkedin.com/in/fahim-shakir/" target="_blank"><FaLinkedinIn /></a></li>
                 </ul>
             </div>
           </div>

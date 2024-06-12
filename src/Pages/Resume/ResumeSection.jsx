@@ -4,6 +4,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import Education from "./Education";
 import Professional from "./Professional";
 import Experience from "./Experience";
+import { NavLink } from "react-router-dom";
 
 const ResumeSection = () => {
   return (
@@ -39,7 +40,7 @@ const ResumeSection = () => {
       </div>
     </div>
       <div className="cv-btn">
-      <button className="mycv-btn">Download My CV</button>
+      <button className="mycv-btn"><a href="/resume/FAHIM_RESUME.doc" className="cvlink" download>Download My CV</a></button>
     </div>
     </>
   );

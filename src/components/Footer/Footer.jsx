@@ -8,6 +8,7 @@ import { FaSkype } from "react-icons/fa6";
 
 import TestimonialCarousel from '../../Pages/testimonial';
 import FacebookPageEmbed from '../../Pages/Facebook';
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -22,7 +23,7 @@ const Footer = () => {
                     <div className="content1">
                         <h2 className='cochead'>About Us</h2>
                         <p>My name is Fahim Shakir. In the discipline of Web Development and Design I am full stack prominent as PHP Programmer / Web Developer / Web Freelancer. I am reputated by my outstanding work, excellent programming skills and versatile nature of program coding with Software and Website Development.
-                            I am full stack developed many web based applications. I am persistent in developing the web application as well as dynamic websites <a href="about-us.php" className='reed'>Readmore</a></p>
+                            I am full stack developed many web based applications. I am persistent in developing the web application as well as dynamic websites <NavLink to="/about" className='reed'>Readmore</NavLink></p>
                     </div>
                     <div className="content3">
                         <h2 className='cochead'>Contect Us</h2>

@@ -251,6 +251,9 @@ li.nav-item.recommended.active .nav-link {
     border: none;
     font-weight: 600;
 }
+.cvlink{
+    color: #fff;
+}
 .cv-btn{
     display: flex;
     justify-content: center;

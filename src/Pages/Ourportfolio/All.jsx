@@ -8,6 +8,8 @@ const All = () => {
     {
       imageSrc: 'https://www.fahimshakir.com/admin/upload/1683601241Screenshot%20(6).png',
       paragraphText: 'AUTOX',
+      Moreinfo:'https://www.autox.com/',
+      view:'admin/upload/1683601241Screenshot (6).png',
     },
     {
         imageSrc: 'https://www.fahimshakir.com/admin/upload/1606045442agecoearth.png',
@@ -360,6 +362,8 @@ const All = () => {
           key={index}
           imageSrc={card.imageSrc}
           paragraphText={card.paragraphText}
+          Moreinfo={card.Moreinfo}
+          view={card.view}
         />
       ))}
     </div>

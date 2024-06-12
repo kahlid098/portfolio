@@ -19,7 +19,7 @@ function App() {
   return (
     <>
     <Header/>
-    <Routes>
+    <Routes basename="/portfolio">
       <Route path="/" element={<Home/> }/>
       <Route path="/About" element={<About/> }/>
       <Route path="/Resume" element={<Resume/>}/>
