@@ -167,19 +167,19 @@ const Header = () => {
                   <NavLink to="/">Home</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/About-us">About Us</NavLink>
+                  <NavLink to="/about-us">About Us</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/Resume">Resume</NavLink>
+                  <NavLink to="/resume">Resume</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/Service">Our Services</NavLink>
+                  <NavLink to="/services">Our Services</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/Portfolio">Our Portfolio</NavLink>
+                  <NavLink to="/portfolio">Our Portfolio</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/Blog">Blog</NavLink>
+                  <NavLink to="/blog">Blog</NavLink>
                 </li>
                 <FaXmark className="xmark" onClick={closenave} />
                 <button className="contact-btn">

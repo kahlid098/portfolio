@@ -172,7 +172,7 @@ const Home = () => {
       <ImageSlid />
       <Card />
       <div className="tech-main-box">
-        <h1 className="font">Use Technology</h1>
+        <h2 className="font">Use Technology</h2>
         <p className="align-centr">
           Crafting innovative web experiences with cutting-edge technology to
           elevate digital presence and user engagement.
@@ -202,7 +202,7 @@ const Home = () => {
         <div className="container">
           <div>
             <div className="work-together">
-              <h1 className="lets">Let's Work Together</h1>
+              <h2 className="lets">Let's Work Together</h2>
               <p className="gon">
                 We, re passionate about brilliant ideas and the execution that
                 brings it all together in one beautiful experience. If you are
@@ -214,7 +214,7 @@ const Home = () => {
               <div className="screen b-right">
                 <img src={screan} alt="" className="immggg" />
                 <div>
-                  <h1 className="heading">WE DISCUSS</h1>
+                  <h2 className="heading">WE DISCUSS</h2>
                   <p className="paragraph">
                     We ,re a full-service Web Development agency that hustles
                     hard to makes users happy while infusing everything we do
@@ -226,7 +226,7 @@ const Home = () => {
               <div className="screen b-right">
                 <img src={seen4} alt="" className="immggg" />
                 <div>
-                  <h1 className="heading">WE DEVELOP</h1>
+                  <h2 className="heading">WE DEVELOP</h2>
                   <p className="paragraph">
                       We see beyond the insights and take you to the eye stand.
                   </p>

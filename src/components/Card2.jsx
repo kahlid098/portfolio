@@ -14,10 +14,10 @@ const Card2 = () => {
   return (
     <>
       <div className="container">
-        <h1 className="balance">
+        <h2 className="balance">
           Balance Your Time And Money With Our Web Design and Development
           Process
-        </h1>
+        </h2>
       </div>
 
   
@@ -25,7 +25,7 @@ const Card2 = () => {
           <div className="d-flex">
             <div className="first-box">
               <img src={project} alt="" />
-              <h2 className="heeed">1. Project Definition</h2>
+              <h3 className="heeed">1. Project Definition</h3>
               <p className="define">
                 {" "}
                 We start with defining the business goals which website should
@@ -34,7 +34,7 @@ const Card2 = () => {
             </div>
             <div className="first-box">
               <img src={scope} alt="" />
-              <h2 className="heeed">2. Project Scope</h2>
+              <h3 className="heeed">2. Project Scope</h3>
               <p className="define">
                 {" "}
                 Our Expert web designers work together with you to write the scope of the project.
@@ -49,7 +49,7 @@ const Card2 = () => {
           <div className="d-flex">
             <div className="first-box">
               <img src={architech} alt="" />
-              <h2 className="heeed">3. Website Architecture</h2>
+              <h3 className="heeed">3. Website Architecture</h3>
               <p className="define">
                 {" "}
                 The architecture of the website determines how the users will interact with the website.
@@ -57,7 +57,7 @@ const Card2 = () => {
             </div>
             <div className="first-box">
               <img src={design} alt="" />
-              <h2 className="heeed">4. Website Designing</h2>
+              <h3 className="heeed">4. Website Designing</h3>
               <p className="define">
                 {" "}
                 Our creative web designers in India then convert the architecture into visually appealing web design.
@@ -70,7 +70,7 @@ const Card2 = () => {
       <div className="d-flex  number">
         <div className="first-box1">
           <img src={develop} alt="" />
-          <h2 className="heeed">5. Web Development</h2>
+          <h3 className="heeed">5. Web Development</h3>
           <p className="define">
             {" "}
             Our web development team then convert these designs into fully functional web pages.
@@ -78,7 +78,7 @@ const Card2 = () => {
         </div>
         <div className="first-box1">
           <img src={testing} alt="" />
-          <h2 className="heeed">6. Website Testing</h2>
+          <h3 className="heeed">6. Website Testing</h3>
           <p className="define">
             {" "}
             Our QA team tests the website in real online environment across all devices.
@@ -86,7 +86,7 @@ const Card2 = () => {
         </div>
         <div className="first-box1">
           <img src={launch} alt="" />
-          <h2 className="heeed">7. Website Launch</h2>
+          <h3 className="heeed">7. Website Launch</h3>
           <p className="define">
             {" "}
             After launch we monitor the website for next two months free of cost to check the performance.
@@ -94,7 +94,7 @@ const Card2 = () => {
         </div>
         <div className="first-box1">
           <img src={main} alt="" />
-          <h2 className="heeed">8. Website Maintenance</h2>
+          <h3 className="heeed">8. Website Maintenance</h3>
           <p className="define">
             {" "}
             We make sure the website is updated and backed up regularly

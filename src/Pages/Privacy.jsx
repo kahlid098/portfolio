@@ -11,7 +11,7 @@ const Privacy = () => {
       <div className="container">
         <div class="col-md-12 text-justify">
           <p></p>
-          <h3>Effective Date: Jan 21, 2021</h3>
+          <h3 className="privacy">Effective Date: Jan 21, 2021</h3>
           <strong>Privacy Policy</strong>
           <p>
             This Privacy Policy describes Our policies and procedures on the

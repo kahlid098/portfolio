@@ -12,7 +12,7 @@ const Term = () => {
       <div className="container">
       <div class="col-md-12 text-justify">
         <p></p>
-        <h3>Term and Termination</h3>
+        <h3 className="term-mmm">Term and Termination</h3>
         <strong>Term of Agreement</strong>
         <p></p>
         <p>

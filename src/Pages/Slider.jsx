@@ -32,8 +32,8 @@ export default function SimpleSlider() {
       <PortCard />
       <div className="back-image">
         <div className="client">
-          <h2>What our clients have to say</h2>
-          <span>Happy Customer</span>
+          <h3 className="our-client">What our clients have to say</h3>
+          <p>Happy Customer</p>
         </div>
         <div className="container margin uniqe">
           <Slider {...settings}>

@@ -14,14 +14,14 @@ const Card = () => {
         <div className='d-flex'>
       <div className='card'>
         <img src={Template} alt="" className='template'/>
-        <h3 className='web'>Web Designing</h3>
+        <h1 className='web'>Web Designing</h1>
         <p className='think'>Most of us think that Web Design is a normal Designing process but it's a different concept, it involves the integration of image, banner</p>
         <button className='read-more'>Read More</button>
        </div>
 
        <div className='card'>
         <img src={feature} alt="" className='template'/>
-        <h3 className='web'>Web Designing</h3>
+        <h2 className='web'>Web Designing</h2>
         <p className='think'>Most of us think that Web Design is a normal Designing process but it's a different concept, it involves the integration of image, banner</p>
         <button className='read-more'>Read More</button>
        </div>

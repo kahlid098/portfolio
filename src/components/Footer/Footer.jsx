@@ -68,7 +68,7 @@ const Footer = () => {
                             <li><span><a href="#">BLOG</a></span></li>
                             <li><span><a href="#">CONTACT US</a></span></li>
                             <li><span><Link to="privacy-policy">Privacy Policy</Link></span></li>
-                            <li><span><Link to="/Term-and-condition">Terms & Conditions</Link></span></li>
+                            <li><span><Link to="/terms-and-conditions">Terms & Conditions</Link></span></li>
                         </ul>
                     </div>
                     <div className="content4">

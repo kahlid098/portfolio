@@ -1,12 +1,32 @@
 .service-image h1 {
-    font-size: 24px !important;
-    font-weight: 800 !important;
-    color: #fff !important;
-    text-align: center;
-    margin-top: 28px;
-    margin-bottom: 10px;
+  font-size: 33px !important;
+  font-weight: 800 !important;
+  color: #fff !important;
+  text-align: center;
+  margin-top: 28px;
+  margin-bottom: 10px;
 }
 .container {
-    width: 82%;
-    margin: 0 auto;
+  width: 82%;
+  margin: 0 auto;
+}
+.privacy {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  margin-bottom: 15px;
+}
+.privacy strong {
+  font-weight: 700;
+}
+.term-mmm {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  margin-bottom: 20px;
+}
+.term-mmm strong {
+  font-weight: 700;
 }

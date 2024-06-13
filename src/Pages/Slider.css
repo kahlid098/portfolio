@@ -22,7 +22,7 @@
     font-weight: 500;
     line-height: 1.1;
 }
-.client span{
+.client p{
     text-align: center;
     font-size: 22px;
     color: #ffa131 !important;
@@ -188,6 +188,10 @@ iframe{
     padding: 7px 46px;
     font-family: "Poppins", Sans-serif;
 }
+.our-client{
+    color: #fff;
+}
+ 
 .viewhere{
     font-family: "Poppins", Sans-serif;
     font-size: 18px;
