@@ -216,6 +216,12 @@ iframe{
         background: #000;
         margin-bottom: 15px;
     }
+    .john {
+        font-family: Verdana, Helvetica, Arial, sans-serif;
+        line-height: 1;
+        margin-top: 14px;
+        font-size: 23px;
+    }
     .align-center p {
         color: #fff;
         font-family: system-ui;
