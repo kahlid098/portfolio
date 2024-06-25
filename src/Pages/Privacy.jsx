@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from 'react';
 import '../Pages/term.css'
 
 const Privacy = () => {
+  useEffect(() => {
+    document.title = "Privacy Policy-Website Usage";
+  }, []);
   return (
     <>
       <div className="service-image">
@@ -52,7 +55,7 @@ const Privacy = () => {
           <p>
             <strong>Contact Us</strong>
             If you have any query regarding the Privacy Policy, please feel free
-            to contact at{" "}
+            to contact at
             <strong>fahimshakir786@gmail.com, 91 9718925775, 9268751849</strong>
           </p>
         </div>

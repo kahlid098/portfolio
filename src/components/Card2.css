@@ -91,18 +91,11 @@
         -webkit-transform: rotate(6deg);
         transform: rotate(6deg)
     }
-
 }
-
-/* Apply the animation to the .design class */
 .design {
     animation: 2s linear infinite mk_tossing;
     -webkit-animation: 2s linear infinite mk_tossing;
 }
-
-
-
-
 .define{
     font-size: 15px;
     color: #000;
@@ -110,7 +103,6 @@
     text-align: center;
     margin-bottom: 14px;
 }
-
 @media only screen and (max-width: 600px){
     .balance {
         line-height: 33px;

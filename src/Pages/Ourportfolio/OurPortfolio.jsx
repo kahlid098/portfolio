@@ -1,4 +1,3 @@
-
 import React from "react";
 
 const OurPortfolio = ({ imageSrc, paragraphText, onImageClick }) => {
@@ -33,5 +32,3 @@ const OurPortfolio = ({ imageSrc, paragraphText, onImageClick }) => {
 };
 
 export default OurPortfolio;
-
-

@@ -7,7 +7,7 @@ const Tech = (props) => {
     <>
 
       <div className="card1">
-        <img src={props.myItem.img} alt="" />
+        <img src={props.myItem.img} alt="cardimage"/>
         {props.myItem.title}
         </div>
     

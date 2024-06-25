@@ -1,30 +1,361 @@
 .resume-tab {
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 85px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 85px;
 }
 li.nav-item.recommended.active .nav-link {
-    color: #ff014f;
+  color: #ff014f;
 }
-.conatainer{
-    width: 85%;
-    margin: 0 auto;
+.conatainer {
+  width: 85%;
+  margin: 0 auto;
 }
 span.subtitle {
-    font-size: 14px;
-    color: #323232;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-weight: 500;
-    display: block;
-    margin-bottom: 0;
-    text-align: center;
+  font-size: 14px;
+  color: #323232;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 0;
+  text-align: center;
 }
 h2.text-center.sec-review-ti {
-    margin-top: 0;
-    margin-bottom: 20px;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 .rn-nav-list {
+  border: 0 none;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #ffffff;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.rn-nav-list .nav-item {
+  flex-basis: 100%;
+  text-align: center;
+  margin-top: 0;
+}
+.rn-nav-list .nav-item {
+  flex-basis: 100%;
+  text-align: center;
+  margin-top: 0;
+}
+.rn-nav-list .nav-item {
+  flex-basis: 100%;
+  text-align: center;
+  margin-top: 0;
+}
+.nav-tabs > li {
+  margin-bottom: 0;
+}
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+.nav > li,
+.nav > li > a {
+  display: block;
+  position: relative;
+}
+li.nav-item.recommended.active .nav-link {
+  color: #ff014f;
+}
+.rn-nav-list .nav-item .nav-link {
+  color: #c4cfde;
+  padding: 30px 10px;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 500;
+  outline: none;
+  border: 0 none;
+  transition: all 0.5s;
+  background: transparent;
+  border-radius: 10px;
+}
+.tabmm {
+  border: 0 none;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #ffffff;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.liaas {
+  flex-basis: 100%;
+  text-align: center;
+  margin-top: 0;
+  color: #c4cfde;
+  padding: 43px 10px;
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: 500;
+  outline: none;
+  border: 0 none;
+  transition: all 0.5s;
+  background: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.h3,
+h3 {
+  font-size: 25px;
+}
+.tabmm .react-tabs__tab--selected {
+  box-shadow: 10px 10px 19px #1c1e226b, -10px -10px 19px #262a2e7d !important;
+  color: #ff014f !important;
+}
+.personal-experience-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.personal-experience-inner {
+  width: 48%;
+}
+.personal-experience-inner .maintitle,
+.progress-wrapper .maintitle {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 62px;
+  color: #000;
+  margin: 0;
+}
+.personal-experience-inner .experience-list,
+.progress-wrapper .experience-list {
+  padding-left: 31px;
+  border-left: 5px solid #17191c;
+}
+.personal-experience-inner .experience-list .resume-single-list,
+.progress-wrapper .experience-list .resume-single-list {
+  position: relative;
+  z-index: 1;
+  margin-top: 50px;
+  padding: 45px 40px;
+  border-radius: 6px;
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  box-shadow: 10px 10px 19px #1c1e226b, -10px -10px 19px #262a2e7d;
+  /* transition: 0.4s; */
+}
+.personal-experience-inner .experience-list .resume-single-list::before,
+.progress-wrapper .experience-list .resume-single-list::before {
+  content: "";
+  position: absolute;
+  transition: 0.4s;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right bottom, #212428, #16181c);
+  opacity: 0;
+  z-index: -1;
+}
+.personal-experience-inner .experience-list .resume-single-list .inner::before,
+.progress-wrapper .experience-list .resume-single-list .inner::before {
+  position: absolute;
+  content: "";
+  width: 28px;
+  height: 5px;
+  right: 100%;
+  top: 63px;
+  transform: translateY(-7px);
+  background: #1b1c1d;
+  z-index: 0;
+}
+.personal-experience-inner .experience-list .resume-single-list .inner .heading,
+.progress-wrapper .experience-list .resume-single-list .inner .heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #1a1d23;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.personal-experience-inner
+  .experience-list
+  .resume-single-list
+  .inner
+  .heading
+  .title,
+.progress-wrapper .experience-list .resume-single-list .inner .heading .title {
+  margin-bottom: 15px;
+}
+.title {
+  color: #000000;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 62px;
+  margin-bottom: 22px;
+}
+.personal-experience-inner
+  .experience-list
+  .resume-single-list
+  .inner
+  .heading
+  .title
+  h4,
+.progress-wrapper
+  .experience-list
+  .resume-single-list
+  .inner
+  .heading
+  .title
+  h4 {
+  color: #c4cfde;
+  font-size: 24px;
+  line-height: 39px;
+  margin-bottom: 7px;
+  font-weight: 500;
+  transition: 0.4s;
+}
+.personal-experience-inner
+  .experience-list
+  .resume-single-list
+  .inner
+  .heading
+  .title
+  span,
+.progress-wrapper
+  .experience-list
+  .resume-single-list
+  .inner
+  .heading
+  .title
+  span {
+  color: #878e99;
+  display: block;
+  font-size: 12px;
+  line-height: 16px;
+}
+.personal-experience-inner
+  .experience-list
+  .resume-single-list
+  .inner
+  .heading
+  .date-of-time,
+.progress-wrapper
+  .experience-list
+  .resume-single-list
+  .inner
+  .heading
+  .date-of-time {
+  display: inline-block;
+}
+.personal-experience-inner
+  .experience-list
+  .resume-single-list
+  .inner
+  .heading
+  .date-of-time
+  span,
+.progress-wrapper
+  .experience-list
+  .resume-single-list
+  .inner
+  .heading
+  .date-of-time
+  span {
+  color: #ff014f;
+  display: block;
+  font-size: 14px;
+  padding: 0 15px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 6px;
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  transition: 0.4s;
+  font-weight: 500;
+}
+.personal-experience-inner .experience-list .resume-single-list .inner::after,
+.progress-wrapper .experience-list .resume-single-list .inner::after {
+  position: absolute;
+  content: "";
+  width: 12px;
+  height: 12px;
+  border: 5px solid #17191c;
+  border-radius: 100%;
+  left: -44.5px;
+  top: 54px;
+  transform: translateY(-7px);
+  background: #222529;
+  transition: 0.4s;
+}
+.personal-experience-inner .experience-list .resume-single-list:hover,
+.progress-wrapper .experience-list .resume-single-list:hover {
+  background: #212427;
+}
+.personal-experience-inner .experience-list .resume-single-list:hover::before,
+.progress-wrapper .experience-list .resume-single-list:hover::before {
+  opacity: 1;
+}
+.personal-experience-inner
+  .experience-list
+  .resume-single-list:hover
+  .inner::after,
+.progress-wrapper .experience-list .resume-single-list:hover .inner::after {
+  background: #ff014f !important;
+}
+.personal-experience-inner
+  .experience-list
+  .resume-single-list:hover
+  .inner
+  .heading
+  .title
+  h4,
+.progress-wrapper
+  .experience-list
+  .resume-single-list:hover
+  .inner
+  .heading
+  .title
+  h4 {
+  color: #fff !important;
+}
+.personal-experience-inner
+  .experience-list
+  .resume-single-list:hover
+  .inner
+  .heading
+  .list-sub-title,
+.progress-wrapper
+  .experience-list
+  .resume-single-list:hover
+  .inner
+  .heading
+  .list-sub-title {
+  color: #fff !important;
+}
+.mycv-btn {
+  background: #1634ab;
+  display: inline-block;
+  color: #fff;
+  padding: 22px 14px;
+  border-radius: 15px;
+  letter-spacing: 1px;
+  margin: 0;
+  font-size: 28px;
+  text-decoration: none;
+  font-size: 28px;
+  border: none;
+  font-weight: 600;
+}
+.cvlink {
+  color: #fff;
+}
+.cv-btn {
+  display: flex;
+  justify-content: center;
+  margin: 35px 0;
+}
+@media only screen and (max-width: 600px) {
+  .rn-nav-list {
     border: 0 none;
     border-radius: 10px;
     background: linear-gradient(145deg, #1e2024, #23272b);
@@ -33,49 +364,9 @@ h2.text-center.sec-review-ti {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
-}
-.rn-nav-list .nav-item {
-    flex-basis: 100%;
-    text-align: center;
-    margin-top: 0;
-}   
-.rn-nav-list .nav-item {
-    flex-basis: 100%;
-    text-align: center;
-    margin-top: 0;
-}
-.rn-nav-list .nav-item {
-    flex-basis: 100%;
-    text-align: center;
-    margin-top: 0;
-}
-.nav-tabs>li {
-    margin-bottom: 0;
-}
-.nav-tabs>li {
-    float: left;
-    margin-bottom: -1px;
-}
-.nav>li, .nav>li>a {
-    display: block;
-    position: relative;
-}
-li.nav-item.recommended.active .nav-link {
-    color: #ff014f;
-}
-.rn-nav-list .nav-item .nav-link {
-    color: #c4cfde;
-    padding: 30px 10px;
-    text-transform: capitalize;
-    font-size: 20px;
-    font-weight: 500;
-    outline: none;
-    border: 0 none;
-    transition: all 0.5s;
-    background: transparent;
-    border-radius: 10px;
-}
-.tabmm{
+    flex-wrap: wrap;
+  }
+  .tabmm {
     border: 0 none;
     border-radius: 10px;
     background: linear-gradient(145deg, #1e2024, #23272b);
@@ -84,15 +375,16 @@ li.nav-item.recommended.active .nav-link {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
-}
-.liaas{
+    flex-wrap: wrap;
+  }
+  .liaas {
     flex-basis: 100%;
     text-align: center;
     margin-top: 0;
     color: #c4cfde;
-    padding: 43px 10px;
+    padding: 28px 10px;
     text-transform: capitalize;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     outline: none;
     border: 0 none;
@@ -100,214 +392,18 @@ li.nav-item.recommended.active .nav-link {
     background: transparent;
     border-radius: 10px;
     cursor: pointer;
-}
-.h3, h3 {
-    font-size: 25px;
-}
-.tabmm .react-tabs__tab--selected{
-    box-shadow: 10px 10px 19px #1c1e226b, -10px -10px 19px #262a2e7d !important;
-    color: #ff014f !important;
-}
-.personal-experience-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.personal-experience-inner {
-    width: 48%;
-}
-.personal-experience-inner .maintitle, .progress-wrapper .maintitle {
-    font-size: 36px;
+  }
+  .conatainer {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .personal-experience-inner .maintitle,
+  .progress-wrapper .maintitle {
+    font-size: 33px;
     font-weight: 700;
     line-height: 62px;
     color: #000;
     margin: 0;
-}
-.personal-experience-inner .experience-list, .progress-wrapper .experience-list {
-    padding-left: 31px;
-    border-left: 5px solid #17191c;
-}
-.personal-experience-inner .experience-list .resume-single-list, .progress-wrapper .experience-list .resume-single-list {
-    position: relative;
-    z-index: 1;
-    margin-top: 50px;
-    padding: 45px 40px;
-    border-radius: 6px;
-    background: linear-gradient(145deg, #1e2024, #23272b);
-    box-shadow: 10px 10px 19px #1c1e226b, -10px -10px 19px #262a2e7d;
-    /* transition: 0.4s; */
-}
-.personal-experience-inner .experience-list .resume-single-list::before, .progress-wrapper .experience-list .resume-single-list::before {
-    content: "";
-    position: absolute;
-    transition: 0.4s;
-    width: 100%;
-    height: 100%;
-    border-radius: 6px;
-    top: 0;
-    left: 0;
-    background: linear-gradient(to right bottom, #212428, #16181c);
-    opacity: 0;
-    z-index: -1;
-}
-.personal-experience-inner .experience-list .resume-single-list .inner::before, .progress-wrapper .experience-list .resume-single-list .inner::before {
-    position: absolute;
-    content: "";
-    width: 28px;
-    height: 5px;
-    right: 100%;
-    top: 63px;
-    transform: translateY(-7px);
-    background: #1b1c1d;
-    z-index: 0;
-}
-.personal-experience-inner .experience-list .resume-single-list .inner .heading, .progress-wrapper .experience-list .resume-single-list .inner .heading {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid #1a1d23;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-}
-.personal-experience-inner .experience-list .resume-single-list .inner .heading .title, .progress-wrapper .experience-list .resume-single-list .inner .heading .title {
-    margin-bottom: 15px;
-}
-.title {
-    color: #000000;
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 62px;
-    margin-bottom: 22px;
-}
-.personal-experience-inner .experience-list .resume-single-list .inner .heading .title h4, .progress-wrapper .experience-list .resume-single-list .inner .heading .title h4 {
-    color: #c4cfde;
-    font-size: 24px;
-    line-height: 39px;
-    margin-bottom: 7px;
-    font-weight: 500;
-    transition: 0.4s;
-}
-.personal-experience-inner .experience-list .resume-single-list .inner .heading .title span, .progress-wrapper .experience-list .resume-single-list .inner .heading .title span {
-    color: #878e99;
-    display: block;
-    font-size: 12px;
-    line-height: 16px;
-}
-.personal-experience-inner .experience-list .resume-single-list .inner .heading .date-of-time, .progress-wrapper .experience-list .resume-single-list .inner .heading .date-of-time {
-    display: inline-block;
-}
-.personal-experience-inner .experience-list .resume-single-list .inner .heading .date-of-time span, .progress-wrapper .experience-list .resume-single-list .inner .heading .date-of-time span {
-    color: #ff014f;
-    display: block;
-    font-size: 14px;
-    padding: 0 15px;
-    height: 36px;
-    line-height: 36px;
-    border-radius: 6px;
-    background: linear-gradient(145deg, #1e2024, #23272b);
-    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
-    transition: 0.4s;
-    font-weight: 500;
-}
-.personal-experience-inner .experience-list .resume-single-list .inner::after, .progress-wrapper .experience-list .resume-single-list .inner::after {
-    position: absolute;
-    content: "";
-    width: 12px;
-    height: 12px;
-    border: 5px solid #17191c;
-    border-radius: 100%;
-    left: -44.5px;
-    top: 54px;
-    transform: translateY(-7px);
-    background: #222529;
-    transition: 0.4s;
-}
-.personal-experience-inner .experience-list .resume-single-list:hover, .progress-wrapper .experience-list .resume-single-list:hover {
-    background: #212427;
-}
-.personal-experience-inner .experience-list .resume-single-list:hover::before, .progress-wrapper .experience-list .resume-single-list:hover::before {
-    opacity: 1;
-}
-.personal-experience-inner .experience-list .resume-single-list:hover .inner::after, .progress-wrapper .experience-list .resume-single-list:hover .inner::after {
-    background: #ff014f !important;
-}
-.personal-experience-inner .experience-list .resume-single-list:hover .inner .heading .title h4, .progress-wrapper .experience-list .resume-single-list:hover .inner .heading .title h4 {
-    color: #fff !important;
-}
-.personal-experience-inner .experience-list .resume-single-list:hover .inner .heading .list-sub-title, .progress-wrapper .experience-list .resume-single-list:hover .inner .heading .list-sub-title {
-    color: #fff !important;
-}
-.mycv-btn{
-    background: #1634ab;
-    display: inline-block;
-    color: #fff;
-    padding: 22px 14px;
-    border-radius: 15px;
-    letter-spacing: 1px;
-    margin: 0;
-    font-size: 28px;
-    text-decoration: none;
-    font-size: 28px;
-    border: none;
-    font-weight: 600;
-}
-.cvlink{
-    color: #fff;
-}
-.cv-btn{
-    display: flex;
-    justify-content: center;
-    margin: 35px 0;
-}
-@media only screen and (max-width: 600px){
-    .rn-nav-list {
-        border: 0 none;
-        border-radius: 10px;
-        background: linear-gradient(145deg, #1e2024, #23272b);
-        box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #ffffff;
-        padding: 0;
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 50px;
-        flex-wrap: wrap;
-    }
-    .tabmm {
-        border: 0 none;
-        border-radius: 10px;
-        background: linear-gradient(145deg, #1e2024, #23272b);
-        box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #ffffff;
-        padding: 0;
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 30px;
-        flex-wrap: wrap;
-    }
-    .liaas {
-        flex-basis: 100%;
-        text-align: center;
-        margin-top: 0;
-        color: #c4cfde;
-        padding: 28px 10px;
-        text-transform: capitalize;
-        font-size: 20px;
-        font-weight: 500;
-        outline: none;
-        border: 0 none;
-        transition: all 0.5s;
-        background: transparent;
-        border-radius: 10px;
-        cursor: pointer;
-    }
-    .conatainer {
-        width: 90%;
-        margin: 0 auto;
-    }
-    .personal-experience-inner .maintitle, .progress-wrapper .maintitle {
-        font-size: 33px;
-        font-weight: 700;
-        line-height: 62px;
-        color: #000;
-        margin: 0;
-        margin-top: 20px;
-    }
+    margin-top: 20px;
+  }
 }

@@ -19,13 +19,6 @@
     margin-bottom: 10px;
 }
 .about h3{
-    font-size: 16px;
-    font-weight: 800;
-    color: #fff;
-    text-align: center;
-    padding: 0 18px;
-}
-.headaboy{
     font-size: 33px !important;
     font-weight: 800 !important;
     color: #fff !important;
@@ -33,6 +26,7 @@
     margin-top: 20px;
     margin-bottom: 10px;
 }
+
 .flax{
     display: flex;
     justify-content: space-between;
@@ -61,19 +55,22 @@
 }
 .paradiv,p{
     font-family: Poppins, Sans-serif;
-    text-align: justify;
     font-size: 14px;
     line-height: 200%;
     margin: 0 0 10px;
 }
 .second-div,p{
     font-family: Poppins, Sans-serif;
-    text-align: justify;
     font-size: 14px;
     line-height: 200%;
     margin: 0 0 10px;
 }
-
+.hewsd{
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+}
 @media only screen and (max-width: 600px){
     .flax {
         display: block;

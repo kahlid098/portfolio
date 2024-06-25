@@ -6,9 +6,9 @@ const SerCard = ({ imageSrc, paragraphText, HedingText }) => {
   return (
     <>
     <div className='ResCard'>
-      <img src={imageSrc} alt="Card image" style={styles.image} />
+      <img src={imageSrc} alt="Card image" style={styles.image}/>
       <div style={styles.Main}> 
-      <h1 style={styles.HedingText}>{HedingText}</h1>
+      <h2 style={styles.HedingText}>{HedingText}</h2>
       <p style={styles.paragraphText}>{paragraphText}</p>
       </div>
     </div>

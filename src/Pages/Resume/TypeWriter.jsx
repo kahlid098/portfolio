@@ -9,13 +9,13 @@ function Type() {
       <TypeAnimation
           sequence={[
             "Full Stack.",
-            1000, // Wait for 1 second
+            1000,
             "Professional Coder.",
-            1000, // Wait for 1 second
+            1000,
             "Web Developer.",
-            1000, // Wait for 1 second
+            1000, 
           ]}
-          speed={50} // Speed in milliseconds per character
+          speed={50} 
           repeat={Infinity}
         />
    </span>

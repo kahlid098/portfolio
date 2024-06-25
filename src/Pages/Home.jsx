@@ -1,11 +1,10 @@
-
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import "../Pages/Home.css";
 import Card from "./Card";
 import Tech from "../components/Tech";
 import screan from "../components/image/Screen.png";
 import screan3 from "../components/image/Screen3.png";
-import seen4 from "../components/image/seen4.png";
+import seen4 from "../components/image/seen4.webp";
 import Card2 from "../components/Card2";
 import SimpleSlider from "./Slider";
 import Chooseus from "./Chooseus/Chooseus";
@@ -14,6 +13,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 const Home = () => {
+  useEffect(() => {
+    document.title =
+      "Part Time and Full Time Freelance Web Developer in Delhi NCR,India";
+  }, []);
   const mycard = [
     {
       id: 1,
@@ -150,7 +153,7 @@ const Home = () => {
       },
     ],
   };
-  
+
   const [isDesktop, setIsDesktop] = useState(window.innerWidth > 600);
 
   useEffect(() => {
@@ -158,45 +161,41 @@ const Home = () => {
       setIsDesktop(window.innerWidth > 600);
     };
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
-    // Cleanup the event listener on component unmount
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
-   
+
   return (
-    <>
-     <div>
-      <ImageSlid />
-      <Card />
-      <div className="tech-main-box">
-        <h2 className="font">Use Technology</h2>
-        <p className="align-centr">
-          Crafting innovative web experiences with cutting-edge technology to
-          elevate digital presence and user engagement.
-        </p>
-        <div className="card-box">
-          {isDesktop ? (
-            // Render items as a list for desktop view
-            <div className="desktop-list card-box">
-              {mycard.map((item, index) => (
-                <Tech key={index} myItem={item} />
-              ))}
-            </div>
-          ) : (
-            // Render the carousel for mobile view
-            <Slider {...respo}>
-              {mycard.map((item, index) => (
-                <Tech key={index} myItem={item} />
-              ))}
-            </Slider>
-          )}
+    <div>
+      <ImageSlid/>
+      <Card/>
+      <div>
+        <div className="tech-main-box">
+          <h2 className="font">Use Technology</h2>
+          <p className="align-centr">
+            Crafting innovative web experiences with cutting-edge technology to
+            elevate digital presence and user engagement.
+          </p>
+          <div className="card-box">
+            {isDesktop ? (
+              <div className="desktop-list card-box">
+                {mycard.map((item, index) => (
+                  <Tech key={index} myItem={item} />
+                ))}
+              </div>
+            ) : (
+              <Slider {...respo}>
+                {mycard.map((item, index) => (
+                  <Tech key={index} myItem={item} />
+                ))}
+              </Slider>
+            )}
+          </div>
         </div>
       </div>
-    </div>
- 
 
       <div className="background">
         <div className="container">
@@ -212,7 +211,7 @@ const Home = () => {
 
             <div className="flexx marrr">
               <div className="screen b-right">
-                <img src={screan} alt="" className="immggg" />
+                <img src={screan} className="immggg" alt="screan" />
                 <div>
                   <h2 className="heading">WE DISCUSS</h2>
                   <p className="paragraph">
@@ -224,17 +223,17 @@ const Home = () => {
               </div>
 
               <div className="screen b-right">
-                <img src={seen4} alt="" className="immggg" />
+                <img src={seen4} className="immggg" alt="seen4" />
                 <div>
                   <h2 className="heading">WE DEVELOP</h2>
                   <p className="paragraph">
-                      We see beyond the insights and take you to the eye stand.
+                    We see beyond the insights and take you to the eye stand.
                   </p>
                 </div>
               </div>
 
               <div className="screen">
-                <img src={screan3} alt="" className="immggg" />
+                <img src={screan3} className="immggg" alt="screan3" />
                 <div>
                   <h1 className="heading">WE DELIVER</h1>
                   <p className="paragraph">
@@ -248,28 +247,32 @@ const Home = () => {
         </div>
       </div>
 
-      <Card2 />
-   
-      <SimpleSlider />
-      <Chooseus />
+      <Card2 ></Card2>
+      <div>
+        <SimpleSlider ></SimpleSlider>
+      </div>
+      <Chooseus ></Chooseus>
       <div className="container">
         <div className="d-flex">
-            <div className="wi-box box-mar">
-                <span>1000+</span>
-                <h1 className="john">Completed <br></br> Projects</h1>
-            </div>
-            <div className="wi-box box-mar">
-                <span>Best Offer</span>
-                <h1 className="john">Delivered On Time</h1>
-            </div>
-            <div className="wi-box box-mar">
-                <span>Best Web Maker</span>
-                <h1 className="john">100% Qc faster<br></br> production</h1>
-            </div>
+          <div className="wi-box box-mar">
+            <span>1000+</span>
+            <h3 className="john">
+              Completed <div></div> Projects
+            </h3>
+          </div>
+          <div className="wi-box box-mar">
+            <span>Best Offer</span>
+            <h3 className="john">Delivered On Time</h3>
+          </div>
+          <div className="wi-box box-mar">
+            <span>Best Web Maker</span>
+            <h3 className="john">
+              100% Qc faster<div></div> production
+            </h3>
+          </div>
         </div>
       </div>
-
-    </>
+    </div>
   );
 };
 

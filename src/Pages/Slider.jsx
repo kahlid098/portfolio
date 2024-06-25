@@ -1,9 +1,9 @@
 import React from "react";
 import Slider from "react-slick";
 import "../Pages/Slider.css";
-import diwaker from "../components/image/diwakr.png";
-import imran from "../components/image/imran.png";
-import hershita from "../components/image/harshita.png";
+import diwaker from "../components/image/diwakr.webp";
+import imran from "../components/image/imran.webp";
+import hershita from "../components/image/harshita.webp";
 import YoutubeSlider from "./YoutubeSlider";
 import PortCard from "./Ourportfolio/PortCard";
 import { NavLink } from "react-router-dom";
@@ -38,7 +38,7 @@ export default function SimpleSlider() {
         <div className="container margin uniqe">
           <Slider {...settings}>
             <div className="align-center">
-              <img src={hershita} alt="" />
+              <img src={hershita} />
               <p className="experience">
                 Great experience working on my personal website development
                 project with Fahim Shakir Web Developer. He was professional and
@@ -50,14 +50,14 @@ export default function SimpleSlider() {
               </p>
             </div>
             <div className="align-center">
-              <img src={imran} alt="" />
+              <img src={imran} alt="imran"/>
               <p className="experience">
                 Excellent Quality Highly recommends A+++ +, Fahim Shakir is a
                 Superb web developer.
               </p>
             </div>
             <div className="align-center">
-              <img src={diwaker} alt="" />
+              <img src={diwaker} alt="diwaker"/>
               <p className="experience">
                 One of the best Magento developer I have met. He help me out
                 from several typical problems. We have also worked together for

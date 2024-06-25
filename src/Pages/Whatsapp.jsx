@@ -1,9 +1,8 @@
-// src/WhatsAppPopup.js
+
 import React, { useState } from 'react';
 import '../Pages/Whatsapp.css';
 import { FaWhatsapp } from "react-icons/fa";
 import { FaRegMessage } from "react-icons/fa6";
-import { HiMiniXMark } from "react-icons/hi2";
 
 const WhatsAppPopup = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,13 +13,13 @@ const WhatsAppPopup = () => {
 
   return (
     <div>
-      <button id="openPopup" onClick={togglePopup}>
+      <button className="openPopup" onClick={togglePopup}>
       <FaWhatsapp />
       </button>
 
       {isOpen && (
         <>
-        <div id="popup" className="popup">
+        <div  className="popup">
           <div className="popup-content">
             <span className="close-btn" onClick={togglePopup}>&times;</span>
             <h2 className='message'><FaRegMessage className='icon-mesag'/></h2>

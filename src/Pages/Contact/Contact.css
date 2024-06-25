@@ -10,7 +10,6 @@
 .tell{
     text-align: center;
 }
-/* styles.css */
 
 .cards-container {
     width: 85%;
@@ -63,7 +62,6 @@
     line-height: 1.5;
   }
 
-  /* -----contact----form---css----- */
 
   .d-flax{
     display: flex;

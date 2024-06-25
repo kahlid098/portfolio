@@ -5,13 +5,13 @@ const SeconCard = ({ Icon, paragraphText, HedingText, buttonText }) => {
   return (
     <>
       <div className="card12">
-        <span>
+        <span className="icon-box">
           <i class={Icon}></i>
         </span>
         <div>
-        <h1>{HedingText}</h1>
+        <h3>{HedingText}</h3>
         <p>{paragraphText}</p>
-        <a>{buttonText}</a>
+        <a className="redss">{buttonText}</a>
         </div>
       </div>
     </>

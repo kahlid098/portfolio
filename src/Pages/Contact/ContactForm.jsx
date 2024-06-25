@@ -1,4 +1,6 @@
 import React from "react";
+import { GoMail } from "react-icons/go";
+import { FaSkype } from "react-icons/fa";
 
 const ContactForm = () => {
   return (
@@ -45,20 +47,19 @@ const ContactForm = () => {
                 </ul>
                 <ul class="small-block-grid-1 chooseus">
                   <li>
-                    <i class="fa fa-envelope-o"></i>{" "}
+                    <GoMail/>
                     <a href="mailto:info@fahimshakir.com">
                       info@fahimshakir.com
                     </a>
                   </li>
                   <li>
-                    <i class="fa fa-envelope-o"></i>{" "}
+                  <GoMail/>
                     <a href="mailto:fahimshakir786@gmail.com">
                       fahimshakir786@gmail.com
                     </a>
                   </li>
                   <li>
-                    {" "}
-                    <i class="foundicon-skype"></i>
+                    <FaSkype/>
                     <a href="skype:fahim.shakir40"> fahim.shakir40</a>
                   </li>
                   <li>

@@ -1,14 +1,14 @@
 import React from "react";
 import "../About/AboutHero.css";
-import Fahim from "../../components/image/FAHIM.jpg";
+import image_aboute from "../../components/image/FAHIM.jpg";
 
 const AboutHero = () => {
   return (
-    <>
+    <div>
       <div className="about">
         <h1 className="hed">ABOUT US</h1>
-        <h3>Full Stack Web Developer.</h3>
-        <h3 className="headaboy">
+        <h2 className="hewsd">Full Stack Web Developer.</h2>
+        <h3>
           You only live once, but if you do it right, once is enough.
         </h3>
       </div>
@@ -16,7 +16,7 @@ const AboutHero = () => {
       <div className="containerr">
         <div className="flax">
           <div className="image-div">
-            <img src={Fahim} alt="" />
+            <img src={image_aboute} alt="fahim" />
           </div>
           <div className="pardiv">
             <p >
@@ -77,7 +77,7 @@ const AboutHero = () => {
           </p>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

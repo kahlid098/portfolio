@@ -2,24 +2,24 @@ import React, { useState } from "react";
 import OurPortfolio from "./OurPortfolio";
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
-import "./Port.css"; // Assuming your CSS is in this file
+import "./Port.css";
 
 const cardsData = [
   {
-    imageSrc: 'https://techkritigroup.com/wp-content/uploads/2024/01/House-of-Computers.png.webp',
-    paragraphText: 'House of Computers',
+    imageSrc: 'https://www.fahimshakir.com/admin/upload/1542051625lyallpuruniforms.png',
+    paragraphText: 'LYALLPURUNIFORMS',
   },
   {
-    imageSrc: 'https://techkritigroup.com/wp-content/uploads/2024/01/IFL-ME.jpg',
-    paragraphText: 'IFL ME',
+    imageSrc: 'https://www.fahimshakir.com/admin/upload/1683733888Screenshot%20(36).png ',
+    paragraphText: 'SURGICALSYSTEMS',
   },
   {
-    imageSrc: 'https://techkritigroup.com/wp-content/uploads/2024/01/Water-To-Go.png.webp',
-    paragraphText: 'Water To Go',
+    imageSrc: 'https://www.fahimshakir.com/admin/upload/1683734669Screenshot%20(44).png',
+    paragraphText: 'MODESTFOREVER',
   },
   {
-    imageSrc: 'https://techkritigroup.com/wp-content/uploads/2024/01/Caskers.png.webp',
-    paragraphText: 'This is My ProjectCaskers',
+    imageSrc: 'https://www.fahimshakir.com/admin/upload/1683734984Screenshot%20(47).png',
+    paragraphText: 'ANDAAZFASHION',
   }
 ];
 

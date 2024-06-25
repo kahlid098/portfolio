@@ -56,12 +56,12 @@ const TestimonialCarousel = () => {
               <div className="h-flex">
                 <div className="h">H</div>
                 <div>
-                  <h3 className="clf">harish kumar</h3>
-                  <p className="year">3 Year ago</p>
+                  <p className="clf">Harish kumar</p>
+                  <p className="year">a months ago</p>
                 </div>
               </div>
               <span>
-                <img src={screenshot} alt="" />
+                <img src={screenshot} alt="screenshot" />
               </span>
             </div>
             <div className="st5">
@@ -72,13 +72,7 @@ const TestimonialCarousel = () => {
               <FaStar />
             </div>
             <p className="typ">
-              Great experience working on my personal website development
-              project with Fahim Shakir Web Developer. He was professional and
-              creative. Their dedicated approach to the work is commendable. I
-              got user-friendly and incredible looking website within the
-              stipulated time outstanding Ecommerce Website Designing and
-              development. Thanks for giving my brand and my business great web
-              presence and an added online edge..
+            Fahim worked on multiple projects with us and he is very experienced regarding Website development. One of the best Magento developer i know.
             </p>
           </div>
 
@@ -87,12 +81,12 @@ const TestimonialCarousel = () => {
               <div className="h-flex">
                 <div className="h">H</div>
                 <div>
-                  <h3 className="clf">Vishu Agrwal</h3>
-                  <p className="year">a month ago</p>
+                  <h3 className="clf">Gurjas Bedi</h3>
+                  <p className="year">5 years ago</p>
                 </div>
               </div>
               <span>
-               <img src={screenshot} alt="" />
+               <img src={screenshot} alt="screenshot"/>
               </span>
             </div>
             <div className="st5">
@@ -103,9 +97,7 @@ const TestimonialCarousel = () => {
               <FaStar />
             </div>
             <p className="typ">
-              Fahim has good conceptional knowledge regarding his developing
-              domain. He has good command on different coding languages. He is
-              hardworking and always reachable to get help.
+               After number of cheaters and fake developers, I finally found Fahim who helped me in developing my website just like I wanted. After completion of website services provided are true and reasonable . Would recommend everyone to get their work done from him.
             </p>
           </div>
 
@@ -114,12 +106,12 @@ const TestimonialCarousel = () => {
               <div className="h-flex">
                 <div className="h">H</div>
                 <div>
-                  <h3 className="clf">Faisal afridi</h3>
-                  <p className="year">a Year ago</p>
+                  <h3 className="clf">Gaurav Arora</h3>
+                  <p className="year">5 years ago</p>
                 </div>
               </div>
               <span>
-              <img src={screenshot} alt="" />
+              <img src={screenshot} alt="screenshot"/>
               </span>
             </div>
             <div className="st5">
@@ -130,11 +122,7 @@ const TestimonialCarousel = () => {
               <FaStar />
             </div>
             <p className="typ">
-              After number of cheaters and fake developers, I finally found
-              Fahim who helped me in developing my website just like I wanted.
-              After completion of website services provided are true and
-              reasonable . Would recommend everyone to get their work done from
-              him.
+            Fahim has good conceptional knowledge regarding his developing domain.  He has good command on different coding languages. He is hardworking and always reachable to get help.
             </p>
           </div>
 
@@ -143,12 +131,12 @@ const TestimonialCarousel = () => {
               <div className="h-flex">
                 <div className="h">H</div>
                 <div>
-                  <h3 className="clf">Gamer buddy</h3>
-                  <p className="year">6 Year ago</p>
+                  <h3 className="clf">Diwakar kumar</h3>
+                  <p className="year">3 years ago</p>
                 </div>
               </div>
               <span>
-              <img src={screenshot} alt="" />
+              <img src={screenshot} alt="screenshot"/>
               </span>
             </div>
             <div className="st5">
@@ -159,9 +147,7 @@ const TestimonialCarousel = () => {
               <FaStar />
             </div>
             <p className="typ">
-              One of the best Magento developer I have met. He help me out from
-              several typical problems. We have also worked together for several
-              projects.
+            One of the best Magento developer I have met. He help me out from several typical problems. We have also worked together for several projects.
             </p>
           </div>
 
@@ -175,7 +161,7 @@ const TestimonialCarousel = () => {
                 </div>
               </div>
               <span>
-              <img src={screenshot} alt="" />
+              <img src={screenshot} alt="screenshot"/>
               </span>
             </div>
             <div className="st5">
@@ -186,8 +172,7 @@ const TestimonialCarousel = () => {
               <FaStar />
             </div>
             <p className="typ">
-              Fahim is very good developer he delivered some very critical
-              projects for CTS. Really appreciate for his work .Keep it up.
+            Fahim is a Hard Working and  Professional in his work. A Full-Stack Developer with great knowledge. Will Surely Recommend his work.
             </p>
           </div>
 
@@ -196,12 +181,12 @@ const TestimonialCarousel = () => {
               <div className="h-flex">
                 <div className="h">H</div>
                 <div>
-                  <h3 className="clf">Gurjas bedy</h3>
-                  <p className="year">A Year ago</p>
+                  <h3 className="clf">Gamer Buddy</h3>
+                  <p className="year">6 years ago</p>
                 </div>
               </div>
               <span>
-              <img src={screenshot} alt="" />
+              <img src={screenshot} alt="screenshot"/>
               </span>
             </div>
             <div className="st5">
@@ -212,9 +197,7 @@ const TestimonialCarousel = () => {
               <FaStar />
             </div>
             <p className="typ">
-              Fahim has good conceptional knowledge regarding his developing
-              domain. He has good command on different coding languages. He is
-              hardworking and always reachable to get help.
+            Fahim Shakir is the best website developer. They can working PHP, Wordpress, Megento, opencart, Durpal and etc. They provides impressive services to there clients.
             </p>
           </div>
 
@@ -228,7 +211,7 @@ const TestimonialCarousel = () => {
                 </div>
               </div>
               <span>
-              <img src={screenshot} alt="" />
+              <img src={screenshot} alt="screenshot"/>
               </span>
             </div>
             <div className="st5">
@@ -239,23 +222,24 @@ const TestimonialCarousel = () => {
               <FaStar />
             </div>
             <p className="typ">
-              Fahim has good conceptional knowledge regarding his developing
-              domain. He has good command on different coding languages. He is
-              hardworking and always reachable to get help.
+            Fahim is very good developer he delivered some very critical projects for CTS. Really appreciate for his work .Keep it up.
             </p>
           </div>
+  
+         
 
+          
           <div className="g1">
             <div className="h-flex">
               <div className="h-flex">
                 <div className="h">H</div>
                 <div>
-                  <h3 className="clf">Gaorav arora</h3>
-                  <p className="year">3 Year ago</p>
+                  <h3 className="clf">Vishu Agarwal</h3>
+                  <p className="year">a month ago</p>
                 </div>
               </div>
               <span>
-              <img src={screenshot} alt="" />
+              <img src={screenshot} alt="screenshot"/>
               </span>
             </div>
             <div className="st5">
@@ -266,12 +250,34 @@ const TestimonialCarousel = () => {
               <FaStar />
             </div>
             <p className="typ">
-              Fahim has good conceptional knowledge regarding his developing
-              domain. He has good command on different coding languages. He is
-              hardworking and always reachable to get help.
+            Fahim Website Developer is outstanding. Excellent job, wonderful, and the Very punctual with almost all the requirements. Highly recommended.
             </p>
           </div>
   
+          <div className="g1">
+            <div className="h-flex">
+              <div className="h-flex">
+                <div className="h">H</div>
+                <div>
+                  <h3 className="clf">Foysal Afridi</h3>
+                  <p className="year">a year ago</p>
+                </div>
+              </div>
+              <span>
+              <img src={screenshot} alt="screenshot"/>
+              </span>
+            </div>
+            <div className="st5">
+              <FaStar />
+              <FaStar />
+              <FaStar />
+              <FaStar />
+              <FaStar />
+            </div>
+            <p className="typ">
+            Great experience working on my personal website development project with Fahim Shakir Web Developer. He was professional and creative. Their dedicated approach to the work is commendable. I got user-friendly and incredible looking website within the stipulated time outstanding Ecommerce Website Designing and development. Thanks for giving my brand and my business great web presence and an added online edge.
+            </p>
+          </div>
     </Slider>
     </div>
     </>

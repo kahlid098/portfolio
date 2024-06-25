@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import  hrline from '../../components/image/hr-line.png'
 import '../Contact/Contact.css'
 import ContactCard from './ContactCard';
 import ContactForm from './ContactForm';
 
 const Contact = () => {
+  useEffect(() => {
+    document.title = "Contact Us for Affordable all types of Website and eCommerce Development ";
+  }, []);
   return (
     <>
     <div>

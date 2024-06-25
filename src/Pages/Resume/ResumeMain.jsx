@@ -141,12 +141,12 @@ const ResumeMain = () => {
   return (
     <>
     <div className="remain-bg">
-    <div class="col-md-12">
-        <h4 class="text-center sec-review-ti">Project Undertaken</h4>
-        <p class="des-choose">Crafting innovative web experiences with cutting-edge technology to elevate digital presence and user engagement.</p>
+    <div className="col-md-12">
+        <h4 className="text-center sec-review-ti">Project Undertaken</h4>
+        <p className="des-choose">Crafting innovative web experiences with cutting-edge technology to elevate digital presence and user engagement.</p>
     </div>
       
-        <div className="conatainer">
+        <div className="conatainerve">
           <ul className="Newflax">
             {Newdata.map((card, index) => (
               <Remain key={index} paragraphText={card.paragraphText} />

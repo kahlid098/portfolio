@@ -4,7 +4,7 @@ import { TiSocialFacebook } from "react-icons/ti";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa6";
 import '../Resume/Resume.css';
-import fahim from '../../components/image/FAHIM.jpg'
+import logo_fahim from '../../components/image/FAHIM.jpg'
 
 const ResumeHero = () => {
   return (
@@ -33,7 +33,7 @@ const ResumeHero = () => {
           <div className="secon-left-side">
             <div className="thumnail">  
                 <div className="inner">
-                    <img src={fahim} alt="" />
+                    <img src={logo_fahim} />
                 </div>
             </div>
           </div>

@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import '../Ourportfolio/Main.css'
 import MainPortfolio from './MainPortfolio'
 
 const Portfolio = () => {
+  useEffect(() => {
+    document.title = "Portfolio- Web and eCommerce Development";
+  }, []);
   return (
     <>
     <div className='main-port'>

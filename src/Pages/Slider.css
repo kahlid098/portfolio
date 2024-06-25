@@ -164,8 +164,8 @@ iframe{
     margin-top: 100px;
     margin-bottom: 100px;
 }
-.uniqe,.slick-prev {
-    left: 0px !important;
+.uniqe, .slick-prev {
+    left: -26px !important;
 }
 .uniqe,.slick-next {
     right: 0px !important;
@@ -180,12 +180,12 @@ iframe{
     letter-spacing: -2px;
 }
 .projects{
-    font-size: 15px;
-    color: #000;
-    line-height: 1.5em;
+    margin-top: 10px;
+    line-height: 1.5;
+    padding: 0 13px;
+    font-size: 16px;
     text-align: center;
-    margin-bottom: 14px;
-    padding: 7px 46px;
+    margin-bottom: 29px;
     font-family: "Poppins", Sans-serif;
 }
 .our-client{
@@ -207,7 +207,7 @@ iframe{
 }
 .our-portfolio{
     text-align: center;
-    padding: 0 132px;
+    padding: 50px 132px;
     margin: 20px 0px;
 }
 @media only screen and (max-width: 600px){
@@ -278,8 +278,6 @@ iframe{
     .our-portfolio {
         line-height: 65px;
         font-size: 26px;
-        font-weight: 600;
-        letter-spacing: -.05em;
         text-align: center;
         position: relative;
         color: #ccc;

@@ -1,7 +1,4 @@
-/* src/WhatsAppPopup.css */
-
-
-#openPopup {
+.openPopup {
     position: fixed;
     bottom: 20px;
     left: 20px;

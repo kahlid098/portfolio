@@ -1,8 +1,8 @@
 .haxx{
-    display: flex;
-    width : 90%;
-    margin : 0 auto;
-    gap: 30px;
+    display: flex !important;
+    width : 90% !important;
+    margin : 0 auto !important;
+    gap: 30px !important;
 }
 .haxx123 {
     display: flex;
@@ -126,10 +126,10 @@
     }
     .projects {
         font-family: Poppins, Sans-serif;
-        text-align: justify;
         font-size: 15px;
         line-height: 153%;
-        margin: 0 0 10px;
-        color: #636363;
+        margin: 15px 0px;
+        color: #241e1e;
+        text-align: center;
     }
 }

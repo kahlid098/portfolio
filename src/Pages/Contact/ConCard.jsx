@@ -5,7 +5,7 @@ const ConCard = ({ image, title, description }) => {
   return (
         <div className="card123">
         <i class={image}></i>
-      <h1 className="card-title">{title}</h1>
+      <h2 className="card-title">{title}</h2>
       <p className="card-description">{description}</p>
     </div>
   );

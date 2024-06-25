@@ -1,25 +1,31 @@
 import React from 'react';
 import '../Ourportfolio/Port.css'
-import Allmain from './Allmain';
+import Joommain from './Joommain';
 
 
 const Joom = () => {
+  const images = [
+      'https://www.fahimshakir.com/admin/upload/1605986608bioconnexus.png',
+  ]
   const cardsData = [
    
       {
-        imageSrc: 'https://www.fahimshakir.com/admin/upload/1605986608bioconnexus.png',
+        imageSrc: images[0],
         paragraphText: 'BIOCONNEXUS',
+        Moreinfo: "https://bioconnexus.com/",
       },
   ];
 
 
   return (
-    <div className='hoxx'>
+    <div className="hoxx">
       {cardsData.map((card, index) => (
-        <Allmain
+        <Joommain
           key={index}
           imageSrc={card.imageSrc}
           paragraphText={card.paragraphText}
+          Moreinfo={card.Moreinfo}
+          images={images}
         />
       ))}
     </div>

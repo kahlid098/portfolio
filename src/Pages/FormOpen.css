@@ -1,4 +1,4 @@
-#openPopup1 {
+.openPopup1 {
   align-items: center;
   background: #fff;
   border: 1px solid #27262e;
@@ -74,7 +74,7 @@
   top: 0;
 }
 @media only screen and (max-width: 600px) {
-  #openPopup1 {
+  .openPopup1 {
     display: none;
   }
 }

@@ -1,13 +1,14 @@
 import ImageSlider from "./Slic-slider";
-import "../components/Header/Header.css"
+import "../components/Header/Header.css";
 
 const ImageSlid = () => {
   const slides = [
-    { url: "https://www.fahimshakir.com/img/slider/first.webp", title: "beach" },
-    { url: "https://www.fahimshakir.com/img/slider/1.webp", title: "boat" },
-    { url: "https://www.fahimshakir.com/img/slider/2.webp", title: "forest" },
-    { url: "https://www.fahimshakir.com/img/slider/3.webp", title: "city" },
-    { url: "https://www.fahimshakir.com/img/slider/4.webp", title: "city" },
+    { url: "https://www.fahimshakir.com/img/slider/first.webp" },
+    { url: "https://www.fahimshakir.com/img/slider/1.webp" },
+    { url: "https://www.fahimshakir.com/img/slider/2.webp" },
+    { url: "https://www.fahimshakir.com/img/slider/3.webp" },
+    { url: "https://www.fahimshakir.com/img/slider/4.webp" },
+    { url: "https://www.fahimshakir.com/img/slider/5.webp" },
   ];
   const containerStyles = {
     width: "100%",

@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from 'react';
 import '../Pages/term.css'
 
 const Term = () => {
+  useEffect(() => {
+    document.title = "Terms and Conditions- Website";
+  }, []);
   return (
     <>
     

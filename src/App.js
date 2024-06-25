@@ -19,11 +19,11 @@ import Privacy from './Pages/Privacy';
 
 function App() {
   return (
-    <>
+    <div>
     <Header/>
     <Routes>
       <Route path="/" element={<Home/> }/>
-      <Route path="/about-us" element={<About/> }/>
+      <Route path="/about-us" element={<About/> }/> 
       <Route path="/resume" element={<Resume/>}/>
       <Route path="/services" element={<Service/> }/>
       <Route path="/portfolio" element={<Portfolio/> }/>
@@ -38,7 +38,7 @@ function App() {
     <OpenForm/>
     <a href='#' className='topcorner'><IoIosArrowUp /></a>
 
-    </>
+    </div>
   );
 }
 

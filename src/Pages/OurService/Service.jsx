@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import '../OurService/service.css'
-import SerCard from './SerCard';
 import ServiceCard from './ServiceCard';
 import SecondCard from './SecondCard';
 
 const Service = () => {
+  useEffect(() => {
+    document.title = "PHP Framework and CMS Development Services- Wordpress, ...";
+  }, []);
   return (
     <>
       <div className='service-image'>
